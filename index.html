@@ -10,46 +10,54 @@
   </head>
   <body>
     <div class="container">
-      <nav>
-        <!-- Navbar links will be functional when pages have been built -->
-        <ul>
-          <li>About</li>
-          <li><a href="project.html">Work</a></li>
-          <li>Resume</li>
-          <li>Contact</li>
-        </ul>
-        <!-- Logo links to homepage-->
+      <!-- Logo links to homepage-->
+      <section class="logo">
         <a href="index.html">
-          <img src="images/logo.png" alt="logo"/>
+          <img class="logo" src="images/logo.png" alt="logo"/>
         </a>
-      </nav>
-      <section>
+      </section>
+        <nav class="nav_bar">
+        <!-- Navbar links will be functional when pages have been built -->
+          <ul class="nav_bar">
+            <li>About</li>
+            <li><a href="project.html">Work</a></li>
+            <li>Resume</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      <section class="hero">
         <header>
-          <img src="images/hero.jpg" alt="hero"/>
-          <h1>Hello! My name is Elizabeth Kong I'm a hospitality revenue analyst - turned UX designer based in San Francisco</h1>
+          <!--Hero text is multiple sizes -->
+          <div class="a">Hello!</div>
+          <div class="b">My name is</div>
+          <h1>Elizabeth Kong</h1>
+          <div class="c">I'm a hospitality revenue analyst -</div>
+          <div class="d">turned UX designer based in</div>
+          <div class="e">San Francisco</div>
         </header>
       </section>
-      <section>
+      <section class="work">
         <h6>My Recent Work</h6>
       </section>
-      <section>
-        <h2>LeChef</h2>
-        <p> No more heavy cookbooks or misplaced recipes. Organize, customize, and share recipes with fellow chefs.</p>
-        <button type="button">View Figma Prototype</button>
-        <img src="images/lechef_homepage.png" alt="lechef_homepage"/>
+      <!--text and image should be side-by-side -->
+      <section class="LeChef">
+          <h2>LeChef</h2>
+          <p><img class="lechef_homepage" src="images/lechef_homepage.png" alt="lechef_homepage"/>No more heavy cookbooks or misplaced recipes. Organize, customize, and share recipes with fellow chefs.</p>
+          <button class="figma_button">View Figma Prototype</button>
       </section>
-      <section>
-        <img src="images/busybus.png" alt="busybus"/>
+      <!--text and image should be side-by-side -->
+      <section class="Bus">
         <h2>BusyBus</h2>
         <p>Tired of waiting for the bus? Or missing your bus by mere seconds? No need to stress - now you can plan ahead with real-time arrival times and map functionality.</p>
-        <button type="button">View Coded Prototype</button>
+        <img class="Busybus" src="images/busybus.png" alt="busybus"/>
+        <button class="Bus_button">View Coded Prototype</button>
       </section>
       <footer>
         <h3>Connect with me:</h3>
         <i class="fa fa-envelope-square" aria-hidden="true"></i>
         <i class="fa fa-linkedin" aria-hidden="true"></i>
         <i class="fa fa-github w3-tiny" aria-hidden="true"></i>
-        <p>© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</p>
+        <h4>© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</h4>
       </footer>
     </div>
   </body>
