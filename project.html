@@ -4,29 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1">
     <title>LeChef</title>
-    <link rel="stylesheet" href="css_project/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style_project.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
     <div class="container">
-      <nav>
+      <!-- Logo links to homepage-->
+      <section class="logo">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="logo"/>
+        </a>
+      </section>
+      <nav class="nav_bar">
         <!-- Navbar links will be functional when pages have been built -->
-        <ul>
+        <ul class="nav_bar">
           <li>About</li>
           <li><a href="project.html">Work</a></li>
           <li>Resume</li>
           <li>Contact</li>
         </ul>
-        <!-- Logo links to homepage-->
-        <a href="index.html">
-          <img src="images/logo.png" alt="logo"/>
-        </a>
       </nav>
-      <section>
+      <section class="hero">
         <!-- Header for this section is after image -->
         <header>
-          <img src="images/lechef_homepage.png" alt="lechef_homepage"/>
+          <img class="homepage" src="images/lechef_homepage.png" alt="lechef_homepage"/>
         </header>
       </section>
       <section>
@@ -34,206 +36,208 @@
         <h3>Overview</h3>
         <p>As the world went into lockdown due to the COVID-19 pandemic, stoves were fired up, flour and yeast became sold out. Then recipe exchanges started and web browsers became filled with bookmarked recipes.</p>
         <p>The goal of LeChef is designed to organize all recipes - old and new - into one convenient location and can be easily shared with others. The recipes on LeChef can also be customized with notes, conversions, as well as a shopping list function.</p>
-        <button type="button">View Figma Prototype</button>
       </section>
-      <section>
-        <h3>Roles</h3>
-        <ul class="Roles">
-          <li>User Research</li>
-          <li>UX Strategy</li>
-          <li>UI Design</li>
-          <li>Branding</li>
-        </ul>
-        <h3>Deliverables</h3>
-          <ul class="Deliverables">
-            <li>User Survey</li>
-            <li>User Personas</li>
-            <li>Style Guide</li>
-            <li>User Stories</li>
-            <li>User Flows</li>
-            <li>Wireframes</li>
-            <li>Prototypes</li>
-            <li>High Fidelity Mockups</li>
-          </ul>
-        <h3>Details</h3>
-          <h4>Duration</h4>
-            <ul class="Details">
-              <li>4 weeks</li>
-            </ul>
-          <h4>Tools</h4>
-            <ul>
-              <li>Figma</li>
-              <li>Adobe Illustrator</li>
-              <li>Adobe Photoshop</li>
-            </ul>
+      <section class="button">
+        <button class="figma_button">View Figma Prototype</button>
+      </section>
+      <!-- Details in 3 columns -->
+      <section class="info">
+        <div class="grid-container">
+          <div class="Roles">
+            <h3>Roles</h3>
+              <ul class="Roles">
+                <li>User Research</li>
+                <li>UX Strategy</li>
+                <li>UI Design</li>
+                <li>Branding</li>
+                <li>Content Strategy</li>
+              </ul>
+          </div>
+          <div class="Deliverables">
+            <h3>Deliverables</h3>
+              <ul class="Deliverables">
+                <li>User Survey</li>
+                <li>User Personas</li>
+                <li>Style Guide</li>
+                <li>User Stories & Flows</li>
+                <li>Wireframes</li>
+                <li>Prototypes</li>
+                <li>High Fidelity Mockups</li>
+              </ul>
+          </div>
+          <div class="Details">
+            <h3>Details</h3>
+              <h4>Duration</h4>
+                <ul class="Details">
+                  <li>4 weeks</li><br>
+                </ul>
+              <h4>Tools</h4>
+                <ul class="Details">
+                  <li>Figma</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe Photoshop</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <h3>Details</h3> -->
+
           </section>
-          <section>
+          <section class="Challenge">
             <h2>The Challenge</h2>
-              <p>Pinterest.</p>
-              <p>Emails.</p>
-              <p>Bookmarks.</p>
-              <p>Cloud storage.</p><br>
-              <p>and hundreds of recipes...</p><br>
+              <p>Pinterest.<br>Emails.<br>Bookmarks.<br>Cloud storage.</p>
+              <p>and hundreds of recipes...</p>
               <p>Due to the 2020 global pandemic, people have been trying out new recipes and doing recipe exchanges with others. With the growing collection of recipes, people are having to keep track of which recipes are stored where. Even after the recipe has been found, customization to the recipe may not have been saved and possibly forgotten, frustrating users. As recipe exchanges have gotten increasingly popular, people have found that finding and sharing recipes is not as seamless as one may like.</p>
           </section>
-          <section>
+          <section class="survey">
             <h2>Understanding the Users</h2>
-              <p>I conducted a user survey to explore:</p><br>
-              <p>-what types of organizational tools people used</p>
-              <p>-how recipes are organized</p>
-              <p>-desired app features</p>
-              <p>-people's social media habits</p><br>
-              <p>There were a total of 18 participants.</p><br>
-              <p>Key Discoveries</p><br>
-              <p>100% searched for food recipes on the internet</p><br>
-              <p>1 out  of 18 currently use a recipe management app</p><br>
-              <p>9 out of 17 have recipes bookmarked on their browser</p><br>
-              <p>12 out of 17 would like to use a recipe management app to organize their recipes</p><br>
-              <p>8 out of 12 would like to see collaborative tools in a recipe management app</p><br>
-              <p>14 out of 18 use social media daily</p><br>
+              <p>I conducted a user survey to explore:</p>
+              <p>- how <span class="important">recipes</span> are organized<br>- what types of <span class="important">organizational tools</span> people used<br>- desired <span class="important">app features</span><br>- people's <span class="important">social media habits</span></p>
+              <p>There were a total of <span class="important">18</span> participants.</p>
+              <p><span class="key">Key Discoveries</span></p>
+              <p>100% searched for food recipes on the internet</p>
+              <p>1 out  of 18 currently use a recipe management app</p>
+              <p>9 out of 17 have recipes bookmarked on their browser</p>
+              <p>12 out of 17 would like to use a recipe management app to organize their recipes</p>
+              <p>8 out of 12 would like to see collaborative tools in a recipe management app</p>
+              <p>14 out of 18 use social media daily</p>
               <p>Through the survey, I discovered what type of features users would like to see in a recipe management app as well as how they would like to collaborate with others. From there, I was able to design the app with features that users would like to see included.</p>
             </section>
-            <section>
-              <h2>User Personas</h2><br>
+            <section class="users">
+              <h2>User Personas</h2>
               <p>From the user survey, I created the following user personas based on the survey responses.</p>
-              <img src="images/persona1.png" alt="persona1"/>
-              <img src="images/persona2.png" alt="persona2"/>
+              <img class="persona1" src="images/persona1.png" alt="persona1"/>
+              <img class="persona2" src="images/persona2.png" alt="persona2"/>
             </section>
-            <section>
-              <h5>Why LeChef?</h5><br>
-                <p>The name of the app, LeChef, is meant to convey a sense of confidence within the user. When trying a recipe the first few times, the feeling can be daunting -</p><br>
-                <h6>Will it turn out good?</h6>
-                <h6>What if there isn't enough flavor?</h6>
-                <h6>Is it cooked enough?</h6>
-                <h6>Will others enjoy it?</h6><br>
-                <p>The title means "the chef" in French and chefs are given that title after years of experience. So the name is meant to give a sense of positivity, encouragement, and creativity for users.</p><br>
-              <h5>Typography and Colors</h5><br>
-                <p>Cooking is a creative process and I wanted the app to give off that creative vibe that resonates with a wide range of users. The playful yet elegant characteristics are represented through the selected typography, Dancing Script and EB Garamond. The font pair balances fun and clarity.</p><br>
-                <p>The color scheme of orange and red were chosen since these colors spark one's appetite, making people feel hungry, which is appropriate for an app focused on food.</p>
+            <section class="branding">
+              <h2>Branding</h2>
+                <h5>Why LeChef?</h5>
+                  <p>The name of the app, LeChef, is meant to convey a sense of confidence within the user. When trying a recipe the first few times, the feeling can be daunting -</p>
+                  <p><span class="key">Will it turn out good?<br>What if there isn't enough flavor?<br>Is it cooked enough?<br>Will others enjoy it?</span></p>
+                  <p>The title means "the chef" in French and chefs are given that title after years of experience. So the name is meant to give a sense of positivity, encouragement, and creativity for users.</p>
+                  <h5>Typography and Colors</h5>
+                    <p>Cooking is a creative process and I wanted the app to give off that creative vibe that resonates with a wide range of users. The playful yet elegant characteristics are represented through the selected typography, Dancing Script and EB Garamond. The font pair balances fun and clarity.</p>
+                    <p>The color scheme of orange and red were chosen since these colors spark one's appetite, making people feel hungry, which is appropriate for an app focused on food.</p>
             </section>
-            <section>
-              <h2>What is important to users?</h2><br>
-                <p>These factors were discovered through the user survey conducted, creating the following prioritized user stories:</p><br>
-                <p>"I want to create an account."</p><br>
-                <p>"I want to import a recipe from the internet."</p><br>
-                <p>"I want to create a new recipes."</p><br>
-                <p>"I want to import photos and/or videos."</p><br>
-                <p>"I want to create a new category."</p><br>
+            <section class="stories">
+              <h2>What is important to users?</h2>
+                <p>These factors were discovered through the user survey conducted, creating the following prioritized user stories:</p>
+                <p>"I want to create an account."</p>
+                <p>"I want to import a recipe from the internet."</p>
+                <p>"I want to create a new recipes."</p>
+                <p>"I want to import photos and/or videos."</p>
+                <p>"I want to create a new category."</p>
                 <p>I performed a usability test with 3 users who were asked to complete 3 tasks,</p>
             </section>
-            <figure>
-              <img src="images/account.gif" alt="account"/>
-                <figcaption>Signing up for an account
-                </figcaption>
+            <figure class="wireframes">
+              <img class="frames" src="images/account.png" alt="account"/>
             </figure>
-            <figure>
-              <img src="images/add_recipe.gif" alt="add_recipe"/>
-                <figcaption>Adding a recipe from the internet
-                </figcaption>
+            <h6>Signing up for an account</h6>
+            <figure class="wireframes">
+              <img class="frames" src="images/addrecipe.png" alt="add_recipe"/>
             </figure>
-            <figure>
-              <img src="images/newcategory.gif" alt="newcategory"/>
-                <figcaption>Creating a new category
-                </figcaption>
+            <h6>Adding a recipe from the internet</h6>
+            <figure class="wireframes">
+              <img class="frames" src="images/category.png" alt="newcategory"/>
             </figure>
-            <section>
-              <h6>Results</h6><br>
+            <h6>Creating a new category</h6>
+            <section class="results">
+              <h5>Results</h5>
                 <p>From this test, I observed that users only struggled with creating a new category. Discussions with the testers revealed that the call to action was no specific enough. There was also confusion about where to find the category action, which meant that the flow was not obvious enough for testers.</p>
             </section>
             <section>
-              <h5>A/B Testing</h5><br>
+              <h5>A/B Testing</h5>
                 <p>During the high fidelity mockup process, multiple design options were created for some frames. In order to decide which options resonated best with users, I conducted an A/B test.</p>
             </section>
-            <section>
+            <section class="testing">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
               <figure>
-                <img src="images/recipe_a.png" alt="recipe_a"/>
+                <img class="recipe_a" src="images/recipe_a.png" alt="recipe_a"/>
                   <figcaption>Option A
                   </figcaption>
               </figure>
               <figure>
-                <img src="images/recipe_b.png" alt="recipe_b"/>
+                <img class="recipe_b" src="images/recipe_b.png" alt="recipe_b"/>
                   <figcaption>Option B
                   </figcaption>
               </figure>
             </section>
-            <section>
-              <p>Testers selected Option A because:</p><br>
-              <ul>
-                <li>The gray background represented a stage that was still in process, whereas the light orange color in Option B indicated a finished product</li>
-                <li>The light orange background color could clash with the recipe photo or video selected</li>
+            <section class="preference">
+              <p>Testers selected <span class="important">Option A</span> because:</p>
+              <ul class="preference">
+                <li>• The gray background represented a stage that was still <span class="important">in process</span>, whereas the light orange color in Option B indicated a finished product</li>
+                <li>• The light orange background color could <span class="important">clash</span> with the recipe photo or video selected</li>
               </ul>
             </section>
             <section>
               <h2>The Cherry On Top</h2>
-                <h6>Conversion tool</h6>
+                <h5>Conversion tool</h5>
                   <p>I changed the icon since the original icon was mistaken for a calendar icon numerous times. Also, thr icon was also moved closer to the yield amount to show their association.</p>
             </section>
-            <section>
+            <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
               <figure>
-                <img src="images/conversion_a.png" alt="conversion_a"/>
+                <img class="conversion_a" src="images/conversion_a.png" alt="conversion_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
               <figure>
-                <img src="images/conversion_b.png" alt="conversion_b"/>
+                <img class="conversion_b" src="images/conversion_b.png" alt="conversion_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
               </figure>
             </section>
             <section>
-              <h6>Upload icon</h6>
+              <h5>Upload icon</h5>
                 <p>I moved the location of the upload icon to the center above the description of the call to action for better visibility and clearer call to action for users.</p>
             </section>
-            <section>
+            <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
               <figure>
-                <img src="images/create_a.png" alt="create_a"/>
+                <img class="create_a" src="images/create_a.png" alt="create_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
               <figure>
-                <img src="images/create_b.png" alt="create_b"/>
+                <img class="create_b" src="images/create_b.png" alt="create_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
               </figure>
             </section>
             <section>
-              <h6>Share frame</h6>
+              <h5>Share frame</h5>
                 <p>I reduced the number of options on the share screen as to not overwhelm users.</p>
             </section>
-            <section>
+            <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
               <figure>
-                <img src="images/share_a.png" alt="share_a"/>
+                <img class="share_a" src="images/share_a.png" alt="share_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
               <figure>
-                <img src="images/share_b.png" alt="share_b"/>
+                <img class="share_b" src="images/share_b.png" alt="share_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
               </figure>
             </section>
-            <section>
+            <section class="takeaways">
               <h2>Results and Takeaway</h2><br>
                 <a href="https://www.figma.com/file/laRcNElXviDCsKeuJXvB2O/High-Fidelity-Mockups?node-id=30%3A56">View Figma Prototype</a><br>
-                  <p>The final product fulfills the recipe organizational goal, with key features consisting of creating recipes as well as importing recipes from websites. The app also has a collaboration feature, allowing users to share recipes, which is an important factor during this global pandemic. The personalized feature include converting recipes and directly adding needed ingredients onto an app-embedded shopping list. These additional features give users a more seamless and comprehesive recipe management app. The styling choices made for LeChef will have users feeling inspired to cook and try reciipes on a creative platform.</p><br>
-                  <p>Some takeaways from this project are:</p><br>
-                  <p>Test,test,test: Feedback on visual designs and functionality varies from person to person so getting as much feedback as possible is key to a good user experience.</p><br>
-                  <p>Focusing on the MVP: Additional features can easily distract from the main goal of the product. I learned that throughout the process, there are times when you have to step back and reevaluate where your focus and attention are currently and if it is in the best interest of users and the product to fixate on those features.</p>
+                  <p>The final product fulfills the recipe organizational goal, with key features consisting of creating recipes as well as importing recipes from websites. The app also has a collaboration feature, allowing users to share recipes, which is an important factor during this global pandemic. The personalized feature include converting recipes and directly adding needed ingredients onto an app-embedded shopping list. These additional features give users a more seamless and comprehesive recipe management app. The styling choices made for LeChef will have users feeling inspired to cook and try reciipes on a creative platform.</p>
+                  <p>Some takeaways from this project are:</p>
+                  <p><span class="important">Test,test,test:</span> Feedback on visual designs and functionality varies from person to person so getting as much feedback as possible is key to a good user experience.</p>
+                  <p><span class="important">Focusing on the MVP:</span> Additional features can easily distract from the main goal of the product. I learned that throughout the process, there are times when you have to step back and reevaluate where your focus and attention are currently and if it is in the best interest of users and the product to fixate on those features.</p>
             </section>
             <footer>
-              <p>Connect with me:</p>
+              <p><span class="footer">Connect with me:</span></p>
                 <i class="fa fa-envelope-square" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <i class="fa fa-github w3-tiny" aria-hidden="true"></i>
-              <p>© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</p>
+              <p><span class="name">© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</span></p>
             </footer>
           </div>
         </body>
