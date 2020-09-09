@@ -80,28 +80,36 @@ h6 {
   width: 100%;
 }
 
-p img.lechef_homepage {
+.lechef_homepage {
   width: 100%;
   height: auto;
-  padding-top: 20px;
   float: right;
   clear: left;
-  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
 h2 {
-  padding: 10px;
+  padding: 15px;
   color: #343545;
   font-size: 1.4rem;
 
 }
 
 p {
-  padding: 10px;
+  padding: 15px;
   color: #343545;
   font-size: 1rem;
   line-height: 1.3;
 
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .figma_button {
@@ -119,7 +127,6 @@ p {
   text-align: center;
   font-size: .75rem;
 
-
 }
 
 .Bus {
@@ -133,8 +140,8 @@ p {
 .Busybus {
   width: 100%;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   float: left;
   clear: right;
 }
