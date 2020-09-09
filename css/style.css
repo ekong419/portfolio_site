@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  /*height: 100vh;*/
+  font-size: 10px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+
+}
+
+.nav_bar {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 50% 50% 50% 50%;
+  text-align: center;
+}
+
+ul.nav_bar li {
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+header {
+
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  padding: 10px;
+  background-color: #343545;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+div.e {
+  font-size: 1.8rem;
+}
+
+.work {
+  margin: 20px;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
+}
+
+.LeChef {
+  background-color: #E6E1E2;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+p img.lechef_homepage {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  float: right;
+  clear: left;
+  margin: 10px;
+}
+
+h2 {
+  padding: 10px;
+  color: #343545;
+  font-size: 1.4rem;
+
+}
+
+p {
+  padding: 10px;
+  color: #343545;
+  font-size: 1rem;
+  line-height: 1.3;
+
+}
+
+.figma_button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: solid #E88D83;
+  border-radius: .5em;
+  background-color: #E88D83;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  font-weight: 300;
+  color: #343545;
+  text-align: center;
+  font-size: .75rem;
+
+
+}
+
+.Bus {
+  background-color: #D5E0E2;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.Busybus {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  clear: right;
+}
+
+.Bus_button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: solid #425A9F;
+  border-radius: .5em;
+  background-color: #425A9F;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: .75rem;
+
+}
+
+footer {
+  text-align: center;
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+
+  text-align: center;
+  font-size: .9rem;
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+i {
+  padding: 10px;
+}
+
+h4 {
+  font-size: .6rem;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+
+@media screen and (min-width: 575px) {
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+}
