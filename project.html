@@ -6,7 +6,7 @@
     <title>LeChef</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style_project.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+    <script src="https://kit.fontawesome.com/92da3292d6.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
@@ -20,7 +20,7 @@
         <!-- Navbar links will be functional when pages have been built -->
         <ul class="nav_bar">
           <li>About</li>
-          <li><a href="project.html">Work</a></li>
+          <li><a href="project.html" class="case_studies">Work</a></li>
           <li>Resume</li>
           <li>Contact</li>
         </ul>
@@ -78,11 +78,9 @@
                   <li>Adobe Photoshop</li>
                 </ul>
             </div>
-        </div>
-        <!-- <h3>Details</h3> -->
-
-          </section>
-          <section class="Challenge">
+          </div>
+        </section>
+        <section class="Challenge">
             <h2>The Challenge</h2>
               <p>Pinterest.<br>Emails.<br>Bookmarks.<br>Cloud storage.</p>
               <p>and hundreds of recipes...</p>
@@ -93,13 +91,14 @@
               <p>I conducted a user survey to explore:</p>
               <p>- how <span class="important">recipes</span> are organized<br>- what types of <span class="important">organizational tools</span> people used<br>- desired <span class="important">app features</span><br>- people's <span class="important">social media habits</span></p>
               <p>There were a total of <span class="important">18</span> participants.</p>
-              <p><span class="key">Key Discoveries</span></p>
-              <p>100% searched for food recipes on the internet</p>
-              <p>1 out  of 18 currently use a recipe management app</p>
-              <p>9 out of 17 have recipes bookmarked on their browser</p>
-              <p>12 out of 17 would like to use a recipe management app to organize their recipes</p>
-              <p>8 out of 12 would like to see collaborative tools in a recipe management app</p>
-              <p>14 out of 18 use social media daily</p>
+              <ul class="key"><h5>Key Discoveries</h5>
+                <li>100% searched for food recipes on the internet</li>
+                <li>1 out  of 18 currently use a recipe management app</li>
+                <li>9 out of 17 have recipes bookmarked on their browser</li>
+                <li>12 out of 17 would like to use a recipe management app to organize their recipes</li>
+                <li>8 out of 12 would like to see collaborative tools in a recipe management app</li>
+                <li>14 out of 18 use social media daily</li>
+              </ul>
               <p>Through the survey, I discovered what type of features users would like to see in a recipe management app as well as how they would like to collaborate with others. From there, I was able to design the app with features that users would like to see included.</p>
             </section>
             <section class="users">
@@ -121,11 +120,13 @@
             <section class="stories">
               <h2>What is important to users?</h2>
                 <p>These factors were discovered through the user survey conducted, creating the following prioritized user stories:</p>
-                <p>"I want to create an account."</p>
-                <p>"I want to import a recipe from the internet."</p>
-                <p>"I want to create a new recipes."</p>
-                <p>"I want to import photos and/or videos."</p>
-                <p>"I want to create a new category."</p>
+                <ul class="user_stories">
+                  <li>"I want to create an account."</li>
+                  <li>"I want to import a recipe from the internet."</li>
+                  <li>"I want to create a new recipes."</li>
+                  <li>"I want to import photos and/or videos."</li>
+                  <li>"I want to create a new category."</li>
+                </ul>
                 <p>I performed a usability test with 3 users who were asked to complete 3 tasks,</p>
             </section>
             <figure class="wireframes">
@@ -144,19 +145,19 @@
               <h5>Results</h5>
                 <p>From this test, I observed that users only struggled with creating a new category. Discussions with the testers revealed that the call to action was no specific enough. There was also confusion about where to find the category action, which meant that the flow was not obvious enough for testers.</p>
             </section>
-            <section>
+            <section class="ab_testing">
               <h5>A/B Testing</h5>
                 <p>During the high fidelity mockup process, multiple design options were created for some frames. In order to decide which options resonated best with users, I conducted an A/B test.</p>
             </section>
             <section class="testing">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
-              <figure>
+              <figure class="A_recipe">
                 <img class="recipe_a" src="images/recipe_a.png" alt="recipe_a"/>
                   <figcaption>Option A
                   </figcaption>
               </figure>
-              <figure>
+              <figure class="B_recipe">
                 <img class="recipe_b" src="images/recipe_b.png" alt="recipe_b"/>
                   <figcaption>Option B
                   </figcaption>
@@ -177,12 +178,12 @@
             <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
-              <figure>
+              <figure class="A_conversion">
                 <img class="conversion_a" src="images/conversion_a.png" alt="conversion_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
-              <figure>
+              <figure class="B_conversion">
                 <img class="conversion_b" src="images/conversion_b.png" alt="conversion_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
@@ -195,12 +196,12 @@
             <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
-              <figure>
+              <figure class="A_create">
                 <img class="create_a" src="images/create_a.png" alt="create_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
-              <figure>
+              <figure class="B_create">
                 <img class="create_b" src="images/create_b.png" alt="create_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
@@ -213,12 +214,12 @@
             <section class="final">
               <!--Header for below section is above  -->
               <!--Images are side by side -->
-              <figure>
+              <figure class="A_share">
                 <img class="share_a" src="images/share_a.png" alt="share_a"/>
                   <figcaption>First Iteration
                   </figcaption>
               </figure>
-              <figure>
+              <figure class="B_share">
                 <img class="share_b" src="images/share_b.png" alt="share_b"/>
                   <figcaption>Final Iteration
                   </figcaption>
@@ -229,14 +230,16 @@
                 <a href="https://www.figma.com/file/laRcNElXviDCsKeuJXvB2O/High-Fidelity-Mockups?node-id=30%3A56">View Figma Prototype</a><br>
                   <p>The final product fulfills the recipe organizational goal, with key features consisting of creating recipes as well as importing recipes from websites. The app also has a collaboration feature, allowing users to share recipes, which is an important factor during this global pandemic. The personalized feature include converting recipes and directly adding needed ingredients onto an app-embedded shopping list. These additional features give users a more seamless and comprehesive recipe management app. The styling choices made for LeChef will have users feeling inspired to cook and try reciipes on a creative platform.</p>
                   <p>Some takeaways from this project are:</p>
-                  <p><span class="important">Test,test,test:</span> Feedback on visual designs and functionality varies from person to person so getting as much feedback as possible is key to a good user experience.</p>
+                  <p><span class="important">Test, test, test:</span> Feedback on visual designs and functionality varies from person to person so getting as much feedback as possible is key to a good user experience.</p>
                   <p><span class="important">Focusing on the MVP:</span> Additional features can easily distract from the main goal of the product. I learned that throughout the process, there are times when you have to step back and reevaluate where your focus and attention are currently and if it is in the best interest of users and the product to fixate on those features.</p>
             </section>
             <footer>
               <p><span class="footer">Connect with me:</span></p>
-                <i class="fa fa-envelope-square" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <i class="fa fa-github w3-tiny" aria-hidden="true"></i>
+              <div class="icons">
+                <p><a href="mailto:elizabethtkong@gmail.com"><i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i></a></p>
+                <p><a href="http://www.linkedin.com/in/elizabeth-kong3.com"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></p>
+                <p><a href="http://www.github.com/ekong419.com"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a></p>
+              </div>
               <p><span class="name">© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</span></p>
             </footer>
           </div>
