@@ -1,19 +1,22 @@
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
+  box-sizing: border-box;
   background-color: #ffffff;
   /*height: 100vh;*/
   font-size: 10px;
   margin: 0 auto;
   padding: 0;
+  color: #000000;
 
 }
 
 .container {
-  box-sizing: border-box;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -22,7 +25,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin-top: 3px;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .nav_bar {
@@ -30,7 +35,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  /*padding: 5px;*/
+  padding: 5px;
   padding-right: 10px;
   display: grid;
   grid-template-columns: 50% 50% 50% 50%;
@@ -43,9 +48,30 @@ ul.nav_bar li {
   padding-top: 10px;
 }
 
+a.case_studies:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.case_studies:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.case_studies:hover {
+  color: #FFB884;
+  text-decoration: underline;
+}
+
+a.case_studies:active {
+  color: #FA6D4D;
+  text-decoration: underline;
+}
+
 .hero {
   background-color: #FFB884;
   width: 100%;
+  text-align: center;
 }
 
 img.homepage {
@@ -75,7 +101,7 @@ p {
   font-family: 'Crimson Text', 'EB Garamond', serif;
 }
 
-.button{
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +142,6 @@ p {
   margin-right: 15px;
   padding-bottom: 10px;
 
-
 }
 
 
@@ -125,6 +150,7 @@ h4 {
   padding-left: 10px;
   margin-top: 4px;
 }
+
 
 
 ul.Roles {
@@ -165,6 +191,18 @@ p span.important {
   font-weight: 700;
 }
 
+ul.key h5 {
+  text-align: center;
+}
+
+ul.key li {
+  padding: 15px;
+  font-size: .8rem;
+  line-height: 1.4;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
+  text-align: center;
+}
+
 p span.key {
   font-style: italic;
 }
@@ -185,7 +223,7 @@ p span.key {
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 15px;
   font-family: 'Crimson Text', 'EB Garamond', serif;
   font-style: italic;
@@ -193,9 +231,20 @@ h5 {
 }
 
 h6 {
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   text-align: center;
   padding: 15px;
   font-size: .9rem;
+  margin-top: 20px;
+}
+
+
+ul.user_stories li {
+  padding: 15px;
+  font-size: .8rem;
+  line-height: 1.4;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
+  text-align: center;
 }
 
 .wireframes {
@@ -204,19 +253,27 @@ h6 {
   justify-content: center;
   align-items: center;
   background-color: #343545;
+  margin-top: 20px;
 }
 
 .frames {
   width: 50%;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .results {
   background-color: #E6E1E2;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
+}
+
+.ab_testing {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .testing {
@@ -226,6 +283,7 @@ h6 {
   column-count: 2;
   display: inline-block;
   background-color: #343545;
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 }
 
 
@@ -244,6 +302,7 @@ h6 {
 }
 
 figcaption {
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   color: #ffffff;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -279,6 +338,7 @@ li span.important {
   background-color: #343545;
   padding-bottom: 5px;
   margin-bottom: 15px;
+  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 }
 
 .conversion_a {
@@ -338,6 +398,14 @@ a {
 footer {
   text-align: center;
   font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+
+}
+
+.icons {
+  column-count: 3;
+  margin-left: 70px;
+  margin-right: 70px;
+
 }
 
 p span.footer {
@@ -345,19 +413,282 @@ p span.footer {
   font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 }
 
-i {
-  padding: 10px;
-}
+
 
 p span.name {
-  font-size: .6rem;
+  font-size: .7rem;
   font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 
 }
 
-@media screen and (min-width: 575px) {
-  div {
-    margin: 1%;
-    width: 48%;
+@media screen and (min-width: 900px) {
+  img.homepage {
+    width: 40%;
+
+  }
+
+  h1 {
+    padding: 30px;
+    padding-left: 200px;
+    font-size: 3rem;
+  }
+
+  h3 {
+    padding: 30px;
+    padding-left: 200px;
+    font-size: 1rem;
+  }
+
+  p {
+    padding-left: 200px;
+    font-size: .9rem;
+    padding-right: 200px;
+    line-height: 1.9;
+  }
+
+  .figma_button {
+    font-size: .95rem;
+  }
+
+  .Roles h3 {
+    text-align: center;
+    margin-right: 135px;
+  }
+
+  .Deliverables h3 {
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 70px;
+
+
+  }
+
+  .Details h3 {
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 80px;
+  }
+
+  ul.Roles {
+    font-size: .8rem;
+    padding-left: 30px;
+    text-align: center;
+
+  }
+
+  ul.Deliverables {
+    font-size: .8rem;
+    padding-left: 30px;
+    text-align: center;
+
+  }
+
+  ul.Details {
+    font-size: .8rem;
+    padding-left: 30px;
+    text-align: center;
+
+  }
+
+  h4 {
+    padding-left: 40px;
+    text-align: center;
+
+  }
+
+  h2 {
+    padding: 30px;
+    padding-left: 200px;
+  }
+
+  .persona1 {
+    width: 49%;
+    padding: 20px 25px 20px 200px;
+
+  }
+
+  .persona2 {
+    width: 49%;
+    padding: 20px 200px 20px 25px;
+
+  }
+
+  h5 {
+    padding-left: 200px;
+  }
+
+  .frames {
+    width: 20%;
+  }
+
+  ul.key h5 {
+    padding-left: 15px;
+  }
+
+  ul.key li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  figcaption {
+    font-size: .8rem;
+  }
+
+  .recipe_a {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    margin-left: 50px;
+  }
+
+  .recipe_b {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 220px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 90px;
+
+  }
+
+
+  .A_recipe figcaption {
+    padding-left: 80px;
+    padding-bottom: 20px;
+
+  }
+
+  .B_recipe figcaption {
+    padding-right: 220px;
+    padding-bottom: 20px;
+  }
+
+  ul.preference li {
+    padding-left: 200px;
+    font-size: .9rem;
+  }
+
+
+  .conversion_a {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    margin-left: 50px;
+  }
+
+  .conversion_b {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 220px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 90px;
+  }
+
+  .A_conversion figcaption {
+    padding-left: 80px;
+    padding-bottom: 35px;
+
+  }
+
+  .B_conversion figcaption {
+    padding-right: 220px;
+    padding-bottom: 20px;
+  }
+
+  .create_a {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    margin-left: 50px;
+  }
+
+  .create_b {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 220px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 90px;
+  }
+
+  .A_create figcaption {
+    padding-left: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .B_create figcaption {
+    padding-right: 220px;
+    padding-bottom: 30px;
+  }
+
+  .share_a {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    margin-left: 50px;
+  }
+
+  .share_b {
+    width: 70%;
+    padding-top: 20px;
+    padding-right: 220px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 90px;
+  }
+
+  .A_share figcaption {
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+  }
+
+  .B_share figcaption {
+    padding-right: 220px;
+    padding-bottom: 20px;
+  }
+
+  .takeaways a {
+    padding-left: 185px;
+    font-size: .8rem;
+
+  }
+
+  footer {
+    padding: 20px;
+    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  }
+
+  p span.footer {
+    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+  }
+
+  .icons {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p span.name {
+    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    padding-top: 20px;
   }
 }
