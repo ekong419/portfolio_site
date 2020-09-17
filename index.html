@@ -6,7 +6,7 @@
     <title>Elizabeth Kong's Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+    <script src="https://kit.fontawesome.com/92da3292d6.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
@@ -20,48 +20,54 @@
         <!-- Navbar links will be functional when pages have been built -->
           <ul class="nav_bar">
             <li>About</li>
-            <li><a href="project.html">Work</a></li>
+            <li><a href="project.html" class="case_studies">Work</a></li>
             <li>Resume</li>
             <li>Contact</li>
           </ul>
         </nav>
       <section class="hero">
-        <header>
+        <ul class="header">
           <!--Hero text is multiple sizes -->
-          <div class="a">Hello!</div>
-          <div class="b">My name is</div>
-          <h1>Elizabeth Kong</h1>
-          <div class="c">I'm a hospitality revenue analyst -</div>
-          <div class="d">turned UX designer based in</div>
-          <div class="e">San Francisco</div>
-        </header>
+          <li>Hello!</li>
+          <li>My name is</li>
+          <li><span class="name">Elizabeth Kong</span></li>
+          <li>I'm a hospitality revenue analyst</li>
+          <li>turned UX designer based in</li>
+          <li><span class="location">San Francisco</span></li>
+        </ul>
       </section>
+      <!-- Overview of Projects -->
       <section class="work">
         <h6>My Recent Work</h6>
       </section>
       <!--text and image should be side-by-side -->
+      <!-- Project 1: LeChef -->
       <section class="LeChef">
-        <img class="lechef_homepage" src="images/lechef_homepage.png" alt="lechef_homepage"/>
           <h2>LeChef</h2>
           <p>No more heavy cookbooks or misplaced recipes. Organize, customize, and share recipes with fellow chefs.</p>
-          <div class="button">
+          <img class="lechef_homepage" src="images/lechef_homepage.png" alt="lechef_homepage"/>
+          <section class="button">
             <button class="figma_button">View Figma Prototype</button>
-          </div>
+          </section>
       </section>
       <!--text and image should be side-by-side -->
+      <!-- Project 2: BusyBus -->
       <section class="Bus">
-        <img class="Busybus" src="images/busybus.png" alt="busybus"/>
         <h2>BusyBus</h2>
-        <p>Tired of waiting for the bus? Or missing your bus by mere seconds? No need to stress - now you can plan ahead with real-time arrival times and map functionality.</p>
-        <div class="button">
+        <p>Tired of missing your bus by mere seconds? Now you can plan ahead with real-time arrival times and maps.</p>
+        <img class="Busybus" src="images/busybus.png" alt="busybus"/>
+        <section class="button">
           <button class="Bus_button">View Coded Prototype</button>
-        </div>
+        </section>
       </section>
       <footer>
         <h3>Connect with me:</h3>
-        <i class="fa fa-envelope-square" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-github w3-tiny" aria-hidden="true"></i>
+        <!-- Icons connect to respective sites -->
+        <div class="icons">
+          <p><a href="mailto:elizabethtkong@gmail.com"><i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i></a></p>
+          <p><a href="http://www.linkedin.com/in/elizabeth-kong3.com"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></p>
+          <p><a href="http://www.github.com/ekong419.com"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a></p>
+        </div>
         <h4>© 2020 Elizabeth Kong     |     Designed and Developed by Elizabeth Kong</h4>
       </footer>
     </div>
