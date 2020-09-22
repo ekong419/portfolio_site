@@ -5,7 +5,6 @@
 body {
   box-sizing: border-box;
   background-color: #ffffff;
-  /*height: 100vh;*/
   font-size: 10px;
   margin: 0;
   padding: 0;
@@ -21,6 +20,8 @@ body {
 
 }
 
+/* Logo links to Home page */
+
 .logo {
   width: 100%;
   display: flex;
@@ -32,9 +33,7 @@ body {
 }
 
 .nav_bar {
-  width: 100%;
   margin-left: 10px;
-  margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px;
   padding-right: 10px;
@@ -49,6 +48,7 @@ ul.nav_bar li {
   padding-top: 10px;
 }
 
+/* "Work" nav */
 a.case_studies:link {
   color: inherit;
   text-decoration: none;
@@ -69,6 +69,8 @@ a.case_studies:active {
   text-decoration: underline;
 }
 
+/* Hero intro */
+
 .hero {
   width: 100%;
   text-align: center;
@@ -85,6 +87,8 @@ ul.header li {
 
 }
 
+/* Intro word emphasis */
+
 li span.name {
   font-size: 2.5rem;
 }
@@ -97,19 +101,20 @@ li span.location {
   margin: 20px;
 }
 
+/* "My Recent Work" */
 h6 {
+  font-family: 'Crimson Text', 'EB Garamond', serif;;
   text-transform: uppercase;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   padding-left: 15px;
   font-size: .7rem;
 }
 
+/* Project 1 - LeChef */
+
 .LeChef {
   background-color: #E6E1E2;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  width: 100%;
-  height: auto;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
   column-count: 2;
 }
 
@@ -123,7 +128,10 @@ h6 {
 
 }
 
+/* Project Title */
+
 h2 {
+  font-family: 'Crimson Text', 'EB Garamond', serif;
   padding: 15px;
   color: #343545;
   font-size: 1.3rem;
@@ -131,22 +139,30 @@ h2 {
 
 }
 
+/* All body text on this page */
+
 p {
+  font-family: 'Crimson Text', 'EB Garamond', serif;
   padding: 15px;
   color: #343545;
   font-size: .9rem;
   line-height: 1.2;
   text-align: center;
 
-
 }
 
+/* All buttons on this page */
+
 .button {
-  padding: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* LeChef button */
 
 .figma_button {
   display: inline-block;
@@ -164,6 +180,8 @@ p {
   font-size: .75rem;
 
 }
+
+/* Project 2 - BusyBus */
 
 .Bus {
   background-color: #D5E0E2;
@@ -183,6 +201,8 @@ p {
   clear: left;
 }
 
+/* BusyBus button */
+
 .Bus_button {
   display: inline-block;
   padding: 0.3em 1.2em;
@@ -200,18 +220,21 @@ p {
 
 }
 
+/* Footer - Connect with Me */
+
 footer {
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
 h3 {
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   text-align: center;
   padding-bottom: 15px;
   font-size: .9rem;
 
 }
+
+/* Email // LinkedIn // GitHub icon */
 
 .icons {
   column-count: 3;
@@ -220,8 +243,29 @@ h3 {
 
 }
 
+a.icon_links:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.icon_links:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.icon_links:hover {
+  color: #EAC7CB;
+  text-decoration: none;
+}
+
+a.icon_links:active {
+  color: #E88D83;
+  text-decoration: none;
+}
+
+/* Copyright footer */
+
 h4 {
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   font-size: .7rem;
   margin-bottom: 20px;
   margin-top: 5px;
@@ -231,20 +275,28 @@ h4 {
 
 @media screen and (min-width: 900px) {
 
+  /* Header */
+
   .logo {
     margin-top: 17px;
   }
+
+  /* "My Recent Work" */
 
   h6 {
     padding-left: 80px;
     font-size: .8rem;
   }
 
+  /* Project 1 - LeChef */
+
   .lechef_homepage {
     width: 80%;
     height: auto;
     padding-right: 80px;
   }
+
+  /* All body text on this page */
 
   p {
     margin-right: 30px;
@@ -258,6 +310,8 @@ h4 {
 
   }
 
+  /* Project title */
+
   h2 {
     margin: 30px;
     padding: 30px;
@@ -267,6 +321,8 @@ h4 {
 
   }
 
+  /* All buttons on this page */
+
   .button {
     padding: 20px;
     display: inline-block;
@@ -275,35 +331,42 @@ h4 {
 
   }
 
+  /* LeChef button */
+
   .figma_button {
     font-size: .85rem;
     padding: 0.3em 1.2em;
     margin: 0;
   }
 
+  /* Project 2 - BusyBus */
+
   .Busybus {
     width: 80%;
     padding-right: 80px;
   }
 
+  /* BusyBusy button */
+
   .Bus_button {
     font-size: .85rem;
   }
 
+  /* Footer - Connect with Me */
+
   footer {
     padding: 20px;
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   }
 
   h3 {
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
     padding: 10px;
     padding-bottom: 20px;
     font-size: 1.1rem;
   }
 
+  /* Email // LinkedIn // GitHub */
+
   .icons {
-    color: #000000;
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
@@ -311,8 +374,9 @@ h4 {
     align-items: center;
   }
 
+  /* Copyright footer */
+  
   h4 {
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     padding: 10px;
     padding-top: 20px;
