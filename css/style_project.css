@@ -5,7 +5,6 @@
 body {
   box-sizing: border-box;
   background-color: #ffffff;
-  /*height: 100vh;*/
   font-size: 10px;
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ body {
 
 .container {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -26,21 +25,20 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 5px;
+  margin-top: 20px;
+
+
 }
 
 .nav_bar {
-  width: 100%;
   margin-left: 10px;
-  margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px;
   padding-right: 10px;
   display: grid;
   grid-template-columns: 50% 50% 50% 50%;
   text-align: center;
+
 }
 
 ul.nav_bar li {
@@ -131,7 +129,6 @@ p {
   padding: 15px;
   column-count: 3;
   display: inline-block;
-  margin: 15px;
   column-rule-style: solid;
   column-gap: 1em;
   column-rule-color: #979797;
@@ -146,23 +143,18 @@ p {
 }
 
 
-h4 {
-  font-weight: 700;
-  padding-left: 10px;
-  margin-top: 4px;
-}
-
-
 
 ul.Roles {
   line-height: 1.7;
   margin: 10px;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 
 }
 
 ul.Deliverables {
   line-height: 1.4;
   margin: 10px;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 
 
 }
@@ -171,7 +163,13 @@ ul.Details {
   line-height: 1.3;
   margin: 10px;
   text-align: left;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 
+}
+
+li span.details_header {
+  font-weight: 700;
+  margin-top: 4px;
 }
 
 .Challenge {
@@ -231,7 +229,7 @@ h5 {
   font-weight: 200;
 }
 
-h6 {
+ul.captions li {
   font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   text-align: center;
   padding: 15px;
@@ -284,7 +282,7 @@ ul.user_stories li {
   column-count: 2;
   display: inline-block;
   background-color: #343545;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 }
 
 
@@ -303,7 +301,7 @@ ul.user_stories li {
 }
 
 figcaption {
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   color: #ffffff;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -316,6 +314,7 @@ figcaption {
   background-color: #E6E1E2;
   margin-top: 15px;
   margin-bottom: 20px;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 
 }
 
@@ -339,7 +338,7 @@ li span.important {
   background-color: #343545;
   padding-bottom: 5px;
   margin-bottom: 15px;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
 }
 
 .conversion_a {
@@ -355,6 +354,7 @@ li span.important {
   padding-right: 20px;
   padding-left: 5px;
 }
+
 
 .create_a {
   width: 100%;
@@ -384,22 +384,29 @@ li span.important {
   padding-left: 5px;
 }
 
-a {
+a.figma_link {
   margin: 15px;
   color: #FA6D4D;
   font-weight: bold;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 }
 
 .takeaways {
   width: 100%;
   background-color: #FFE4D1;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 footer {
   text-align: center;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
 
+h4 {
+  font-size: .9rem;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 .icons {
@@ -409,17 +416,32 @@ footer {
 
 }
 
-p span.footer {
-  font-size: .9rem;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+a.icon_links:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.icon_links:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.icon_links:hover {
+  color: #FFB884;
+  text-decoration: none;
+}
+
+a.icon_links:active {
+  color: #FA6D4D;
+  text-decoration: none;
 }
 
 
-
-p span.name {
+h6 {
   font-size: .7rem;
-  font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
-
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding-top: 15px;
 }
 
 @media screen and (min-width: 900px) {
@@ -491,8 +513,7 @@ p span.name {
 
   }
 
-  h4 {
-    padding-left: 40px;
+  li span.details_header {
     text-align: center;
 
   }
@@ -658,6 +679,7 @@ p span.name {
   .B_share figcaption {
     padding-right: 220px;
     padding-bottom: 20px;
+
   }
 
   .takeaways a {
@@ -668,11 +690,9 @@ p span.name {
 
   footer {
     padding: 20px;
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
   }
 
-  p span.footer {
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  h4 {
     padding: 10px;
     padding-bottom: 20px;
     font-size: 1.1rem;
@@ -686,10 +706,11 @@ p span.name {
     align-items: center;
   }
 
-  p span.name {
-    font-style: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+
+  h6 {
     font-size: 1rem;
     padding: 10px;
     padding-top: 20px;
+
   }
 }
