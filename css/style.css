@@ -329,9 +329,10 @@ h4 {
   margin: 2.5em;
 }
 
-/*.about_photo {
-  padding: 10px;
-}*/
+.about_photo {
+  /*padding: 10px;*/
+  margin: auto;
+}
 
 img.bio {
   width: 100%;
@@ -342,6 +343,7 @@ img.bio {
 
 .about_header {
   padding-top: 15px;
+  margin: auto;
 
 }
 
