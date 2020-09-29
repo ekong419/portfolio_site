@@ -50,6 +50,27 @@ ul.nav_bar li {
   padding-top: 10px;
 }
 
+/* "About" nav */
+a.biography:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.biography:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.biography:hover {
+  color: #E6E1E2;
+  text-decoration: underline;
+}
+
+a.biography:active {
+  color: #BDC8B5;
+  text-decoration: underline;
+}
+
 /* "Work" nav */
 a.case_studies:link {
   color: inherit;
@@ -289,6 +310,100 @@ h4 {
   margin-top: 5px;
   padding-top: 15px;
 }
+
+/* About page */
+
+.hero_bio {
+  background-color: #E88D83;
+  column-count: 2;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img.bio {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2.5em;
+  float: left;
+  clear: right;
+
+}
+
+h1.bio {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.1;
+  /*padding-right: 2.5em;*/
+  float: right;
+  clear: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.wrapper_about {
+  margin: 2.5em;
+}
+
+h2.About {
+  font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 15px;
+
+}
+
+p.About {
+  font-family: 'Crimson Text', 'EB Garamond', serif;
+  font-size: 1rem;
+  padding: 15px;
+  line-height: 1.7;
+}
+
+h5.About {
+  font-size: 1.1rem;
+  font-style: italic;
+  padding: 15px;
+  line-height: 1.7;
+}
+
+.About_page {
+  background-color: #E6E1E2;
+  padding: 5px;
+
+}
+
+.Quote {
+  background-color: #D5E0E2;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 2.5em;
+}
+
+h6.About {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.7;
+}
+
+p.Quote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
 
 /* LeChef project page */
 
