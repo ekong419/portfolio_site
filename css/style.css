@@ -313,23 +313,35 @@ h4 {
 
 /* About page */
 
+
 .hero_bio {
   background-color: #E88D83;
   column-count: 2;
   display: block;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  vertical-align: middle;
 
 }
+
+.wrapper_header {
+  margin: 2.5em;
+}
+
+/*.about_photo {
+  padding: 10px;
+}*/
 
 img.bio {
   width: 100%;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 2.5em;
   float: left;
   clear: right;
+}
+
+.about_header {
+  padding-top: 15px;
 
 }
 
@@ -339,13 +351,8 @@ h1.bio {
   text-align: left;
   font-size: 1rem;
   line-height: 1.1;
-  /*padding-right: 2.5em;*/
   float: right;
   clear: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-
 }
 
 .wrapper_about {
