@@ -109,7 +109,7 @@ a.case_studies:active {
 
 ul.header li {
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   font-size: 1.3rem;
   color: #FFFFFF;
   padding: 15px;
@@ -145,16 +145,21 @@ h6.recent_work {
   margin-bottom: 5px;
   padding-bottom: 5px;
   column-count: 2;
+  column-gap: 4em;
+  display: inline-block;
 }
 
 
 .lechef_homepage {
-  width: 100%;
+  width: 150%;
   height: auto;
   float: right;
   clear: left;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
 
 }
 
@@ -169,7 +174,7 @@ h2.case_study_title {
   margin-left: 2.5em;
   color: #343545;
   font-size: 1.3rem;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -184,14 +189,14 @@ p.homepage {
   color: #343545;
   font-size: .9rem;
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
 
 }
 
 /* All buttons on homepage page */
 
 .button_homepage {
-  padding-right: 10px;
+  /*padding-right: 10px;*/
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -205,14 +210,14 @@ p.homepage {
 
 .figma_button_homepage {
   display: inline-block;
-  padding: 0.3em 1.2em;
+  padding: 0.3em 0.6em;
   margin: 0 0.1em 0.1em 0;
   border: solid #E88D83;
   border-radius: .5em;
   background-color: #E88D83;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
   font-weight: 300;
   color: #343545;
   text-align: center;
@@ -224,28 +229,31 @@ p.homepage {
 
 .Bus {
   background-color: #D5E0E2;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 100%;
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
   column-count: 2;
+  column-gap: 4em;
+  display: inline-block;
 }
 
 .Busybus {
-  width: 100%;
+  width: 150%;
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
   float: right;
   clear: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 /* BusyBus button */
 
 .Bus_button {
   display: inline-block;
-  padding: 0.3em 1.1em;
-  margin: 0.1em 0.1em 0.1em 0.1em;
+  padding: 0.4em 0.3em;
+  margin: 0.2em 0.1em 0.2em 0.1em;
   border: solid #425A9F;
   border-radius: .5em;
   background-color: #425A9F;
@@ -268,6 +276,7 @@ footer {
 
 h3 {
   text-align: center;
+  padding-top: 15px;
   padding-bottom: 15px;
   font-size: .9rem;
 
@@ -315,7 +324,6 @@ h4 {
 
 
 .hero_bio {
-  background-color: #E88D83;
   column-count: 2;
   display: block;
   justify-content: center;
@@ -323,38 +331,33 @@ h4 {
   padding: 10px;
   vertical-align: middle;
 
+
 }
 
 .wrapper_header {
-  margin: 2.5em;
+  padding: 2.5em;
+  background-color: #E88D83
 }
 
-.about_photo {
-  /*padding: 10px;*/
-  margin: auto;
-}
 
 img.bio {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   float: left;
   clear: right;
 }
 
-.about_header {
-  padding-top: 15px;
-  margin: auto;
-
-}
 
 h1.bio {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   color: #000000;
   text-align: left;
   font-size: 1rem;
-  line-height: 1.1;
+  line-height: 1.4;
   float: right;
   clear: left;
+  padding-top: 5px;
+  padding-left: 15px;
 }
 
 .wrapper_about {
@@ -399,7 +402,7 @@ h5.About {
 }
 
 h6.About {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
@@ -407,7 +410,7 @@ h6.About {
 }
 
 p.Quote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   font-size: .8rem;
   text-align: center;
   line-height: 1.7;
@@ -565,17 +568,6 @@ p.Quote {
 
   /* Survey Key Discoveries */
 
-  ul.key h5.Lechef_page {
-    text-align: center;
-  }
-
-  ul.key li {
-    padding: 15px;
-    font-size: 1rem;
-    line-height: 1.4;
-    font-family: 'Crimson Text', 'EB Garamond', serif;
-    text-align: center;
-  }
 
   p.Lechef_page span.key {
     font-style: italic;
@@ -904,6 +896,55 @@ p.Quote {
     padding-top: 20px;
   }
 
+
+  /* About page */
+
+  img.bio {
+    width: 70%;
+    /*padding: 30px;*/
+    padding-left: 200px;
+    margin-left: 150px;
+
+  }
+
+  h1.bio {
+    font-size: 2rem;
+    line-height: 1.9;
+    padding-right: 200px;
+    padding-top: 40px;
+  }
+
+  h2.About {
+    padding: 30px;
+    padding-left: 200px;
+    font-size: 2rem;
+  }
+
+  p.About {
+    padding-left: 200px;
+    font-size: 1.3rem;
+    padding-right: 200px;
+    line-height: 1.9;
+  }
+
+  h5.About {
+    padding-left: 200px;
+    font-size: 1.3rem;
+    padding-right: 200px;
+    line-height: 1.9;
+  }
+
+  h6.About {
+    font-size: 1.3rem;
+    line-height: 1.9;
+  }
+
+  p.Quote {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+
+
   /* LeChef page */
 
   /* Hero section */
@@ -950,12 +991,18 @@ p.Quote {
     column-rule-color: #979797;
     column-rule-width: .09rem;
 
+
   }
 
   .grid-container h6.Lechef_page {
     margin-right: 15px;
     padding-bottom: 10px;
     text-align: center;
+
+  }
+
+  .details_icons {
+    padding-left: 30px;
 
   }
 
@@ -1032,10 +1079,14 @@ p.Quote {
 
   }
 
+
   h5.Lechef_page {
-    padding-left: 200px;
     font-size: 1.3rem;
+    line-height: 1.9;
+    padding-left: 200px;
+    padding-right: 200px;
   }
+
 
   /* User Stories */
 
@@ -1047,13 +1098,11 @@ p.Quote {
     width: 20%;
   }
 
-  ul.key h5.Lechef_page {
-    padding-left: 15px;
-  }
+
 
   ul.key li {
     font-size: 1.3rem;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
   }
 
   /* Wireframes */
