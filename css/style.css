@@ -131,7 +131,7 @@ li span.location {
 }
 
 /* "My Recent Work" */
-h6.recent_work {
+#recent_work {
   font-family: 'Crimson Text', 'EB Garamond', serif;;
   text-transform: uppercase;
   padding-left: 2.5em;
@@ -450,8 +450,6 @@ p.Quote {
     text-transform: uppercase;
     padding: 15px;
     font-family: 'Crimson Text', 'EB Garamond', serif;
-
-
   }
 
   p.Lechef_page {
@@ -773,6 +771,12 @@ p.Quote {
     font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
     font-size: .8rem;
   }
+
+  a.figma_link:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
    /* Results and Takeaways */
 
   .takeaways {
@@ -781,6 +785,233 @@ p.Quote {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  /* BusyBus Project */
+
+  .hero_busybus {
+    background-color: #979797;
+    width: 100%;
+    text-align: center;
+  }
+
+    img.busybus_final {
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    h1.Busybus_page {
+      padding: 15px;
+      font-size: 1.5rem;
+      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+      font-weight: 600;
+    }
+
+    h6.Busybus_page {
+      text-transform: uppercase;
+      padding: 15px;
+      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+    }
+
+    p.Busybus_page {
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+      font-family: 'Times New Roman', serif;
+    }
+
+    .grid-container_BB {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: .9rem;
+
+    }
+
+    .details_icons_BB {
+      margin: 10px;
+    }
+
+    /* Information divided in 3 columns */
+
+    .Roles_BB {
+      padding: 10px;
+    }
+
+
+    .Deliverables_BB {
+      padding: 10px;
+    }
+
+    .Details_BB {
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    ul.Roles_BB {
+      line-height: 1.7;
+      margin: 10px;
+      font-family: 'Times New Roman', serif;
+    }
+
+
+    ul.Deliverables_BB {
+      line-height: 1.7;
+      margin: 10px;
+      font-family: 'Times New Roman', serif;
+
+    }
+
+    ul.Details_BB {
+      line-height: 1.7;
+      margin: 10px;
+      font-family: 'Times New Roman', serif;
+    }
+
+    li span.BB_details {
+      font-weight: 700;
+      margin-top: 4px;
+      text-align: center;
+    }
+
+    .Challenge_BB {
+      background-color: #4da2ff;
+      width: 100%;
+    }
+
+    p.Busybus_page span.important {
+      font-weight: 700;
+    }
+
+    h5.Busybus_page {
+      font-size: 1.1rem;
+      padding: 15px;
+      font-family: 'Times New Roman', serif;
+      font-style: italic;
+      font-weight: 200;
+    }
+
+    ul.product_vision li {
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+      font-family: 'Times New Roman', serif;
+      font-weight: 600;
+    }
+
+    .wireframes_BB {
+      background-color: #007AFF;
+      width: 100%;
+      text-align: center;
+    }
+
+    img.paper_prototype {
+      width: 60%;
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+    }
+
+    ul.BB_captions {
+      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .next_stop {
+      width: 100%;
+      height: auto;
+      padding-top: 15px;
+      column-count: 2;
+      display: inline-block;
+      background-color: #000000;
+      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+    }
+
+    .BB_first {
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+      padding-right: 5px;
+    }
+
+    .BB_second {
+      width: 100%;
+      height: auto;
+      padding-right: 20px;
+      padding-left: 5px;
+    }
+
+    ul.iteration_changes li {
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+      font-family: 'Times New Roman', serif;
+    }
+
+    ul.iteration_changes li span.important {
+      font-weight: 700;
+    }
+
+    figure.final_iteration {
+      background-color: #000000;
+    }
+
+    img.BB_final {
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    ul.final_iteration li {
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+      font-family: 'Times New Roman', serif;
+    }
+
+
+    .button_BB {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    h2.Busybus_page {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      padding: 15px;
+      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+    }
+
+    .BB_results {
+      background-color: #4da2ff;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    a.BB_link {
+      margin: 15px;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+      font-size: .8rem;
+    }
+
+    a.BB_link:visited {
+      color: inherit;
+      text-decoration: none;
+    }
 
 
 @media screen and (min-width: 900px) {
@@ -797,9 +1028,9 @@ p.Quote {
 
   /* "My Recent Work" */
 
-  h6.recent_work {
-    padding-left: 80px;
-    font-size: .8rem;
+  #recent_work {
+    padding-left: 90px;
+    font-size: 1rem;
   }
 
   /* Project 1 - LeChef */
