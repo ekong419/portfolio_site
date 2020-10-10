@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>BusyBus</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/92da3292d6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Logo links to homepage -->
+      <section class="logo">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="logo"/>
+        </a>
+      </section>
+    <nav class="nav bar">
+      <!-- Navbar links will be functional when pages have been built -->
+      <ul class="nav_bar">
+        <li><a href="biography.html" class="biography">About</a></li>
+        <li>Work</li>
+        <li>Resume</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <section class="hero_busybus">
+      <!-- Header for this section is after image -->
+      <header>
+        <img class="busybus_final" src="images/busybus.png" alt="busybus_final"/>
+      </header>
+    </section>
+    <!-- Case Study intro -->
+    <div class="wrapper_overview">
+      <section class="overview_BB">
+        <h1 class="Busybus_page">BusyBus</h1>
+        <h6 class="Busybus_page">Overview</h6>
+          <p class="Busybus_page">Everyone has their own schedule, which can be stressful enough. But having to worry about what time the next bus is and will they make it in time is unncessary additional stress.</p>
+          <p class="Busybus_page">The goal of BusyBus is designed to provide real-time information for bus arrival times so that riders will know how long until the next bus and which bus will be arriving.</p>
+      </section>
+      <!-- Button links to coded prototype site -->
+      <section class="buttton_BB">
+        <a href="https://ekong419.github.io/frontend_challenge/"><button class="Bus_button">View Coded Protoype</button>
+        </a>
+      </section>
+      <!-- Details in 3 columns for desktop version -->
+      <section class="info">
+        <div class="grid-container_BB">
+          <div class="BB_Roles">
+            <div class="details_icons_BB">
+              <i class="fas fa-users fa-lg" aria-hidden="true"></i>
+            </div>
+            <h6 class="Busybus_page">Roles</h6>
+              <ul class="Roles_BB">
+                <li>User Research</li>
+                <li>UX Strategy</li>
+                <li>Branding</li>
+                <li>UI Design</li>
+                <li>Front-End Development</li>
+              </ul>
+            </div>
+            <div class="BB_Deliverables">
+              <div class="details_icons">
+                <i class="far fa-file-alt fa-lg" aria-hidden="true"></i>
+              </div>
+              <h6 class="Busybus_page">Deliverables</h6>
+                <ul class="Deliverables_BB">
+                  <li>User Survey</li>
+                  <li>Style Guide</li>
+                  <li>User Stories & Flows</li>
+                  <li>Wireframes</li>
+                  <li>Prototypes</li>
+                  <li>High Fidelity Mockups</li>
+                  <li>Coded Prototype</li>
+                </ul>
+              </div>
+              <div class="BB_Details">
+                <div class="details_icons">
+                  <i class="fas fa-pencil-ruler fa-lg" aria hidden="true"></i>
+                </div>
+                <h6 class="Busybus_page">Details</h6>
+                  <ul class="Details_BB">
+                    <li><span class="BB_details">Duration</span></li>
+                    <li>4 weeks</li>
+                  </ul>
+                  <ul class="Details_BB">
+                    <li><span class="BB_details">Tools</span></li>
+                    <li>Figma</li>
+                    <li>Atom</li>
+                    <li>GitHub</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- The Problem -->
+          <section class="Challenge_BB">
+            <div class="wrapper_casestudy">
+              <h2 class="Busybus_page">The Challenge</h2>
+                <p class="Busybus_page">Due to an expansion by the local city transit system, numerous bus routes have been recently added and many of those routes service the same bus stop. Riders would like to know which is the next arriving bus and how much time they have to get to the bus stop. Riders are currently complaining the most about the bus stop at Washington and State, which has seven bus lines serving the stop.</p>
+            </div>
+          </section>
+          <!-- User Research -->
+          <div class="wrapper_casestudy">
+            <section class="survey_BB">
+              <h2 class="Busybus_page">Understanding the Users</h2>
+                <p class="Busybus_page">A user survey was done to discover:</p>
+                <p class="Busybus_page">- If people <span class="important">use</span> public transporation<br>- How <span class="important">often</span> public transporation is used<br>- If people use <span class="important">mobile transit apps</span> to get around<br>- Their <span class="important">habits</span> when using the mobile transit apps</p>
+                <p class="Busybus_page">A total of <span class="important">10</span> survey participants.</p>
+                <h5 class="Busybus_page">Key Discoveries</h5>
+                  <p class="Busybus_page">60% are public transit users</p><br>
+                  <p class="Busybus_page">Of the public transit users, 100% have some type of transit app downloaded</p>
+                  <p class="Busybus_page">66.7% check the app for public transit schedules</p>
+                  <p class="Busybus_page">50% found transit apps to be reliable</p>
+                  <p class="Busybus_page">50% would initially check the transit app when they have already arrived at the transit stop</p>
+                  <p class="Busybus_page">33.3% would initially check the app when they are leaving their origin point</p>
+                  <p class="Busybus_page">From the survey, I discovered what aspects were important to users in a transit app and how they use the apps.</p>
+            </section>
+          </div>
+          <!-- Paper prototype 1-->
+          <div class="wrapper_casestudy">
+            <section class="product_vision">
+              <h2 class="Busybus_page">Product Vision</h2>
+              <p class="Busybus_page">3 key focus areas:</p>
+                <ul class="product_vision">
+                  <li>• Next bus arrival times</li>
+                  <li>• Map feature</li>
+                  <li>• Transit information</li>
+                </ul>
+              <h5 class="Busybus_page">First Stop</h5>
+              <figure class="wireframes_BB">
+                <img class="paper_prototype" src="images/BB_paper.png" alt="paper"/>
+              </figure>
+                <ul class="BB_captions">
+                  <li>This frame lists the transit options closest to the user's current location. The map shows both the current location of the user as well as the desired bus stop. There is a segmented control that allows users to toggle between the inbound and outbound bus times.</li>
+                </ul>
+            </section>
+          </div>
+          <!-- Visual Design -->
+          <div class="wrapper_casestudy">
+            <section class="visual_design">
+              <h2 class="Busybus_page">Visual Design</h2>
+                <p class="Busybus_page">I chose Blue as the main color theme since it is associated with <span class="key">responsibility</span> and <span class="key">reliability</span>. These themes are important for a transit app since for some users, public transit is a key factor in their daily lives and they depend on its efficiency.<br> For the content in the frame, I decided to include the time of arrival for the next three buses because not all users will be at the bus stop, which I learned from the responses of my user survey. Therefore, with future bus arrival times, users are able to plan ahead if they wish.</p>
+            </section>
+          </div>
+          <!-- Iteration changes -->
+          <div class="wrapper_casestudy">
+            <h5 class="Busybus_page">Next Stop</h5>
+              <section class="next_stop">
+              <!-- Images are side by side -->
+              <figure class="BB_iterationA">
+                <img class="BB_first" src="images/BB_first.png" alt="First_Iteration"/>
+                  <figcaption>First Iteration
+                  </figcaption>
+              </figure>
+              <figure class="BB_iterationB">
+                <img class="BB_second" src="images/BB_second.png" alt="Second_Iteration"/>
+                  <figcaption>Second Iteration
+                  </figcaption>
+              </figure>
+            </section>
+              <p class="Busybus_page">Changes made for this iteration were:</p>
+                <ul class="iteration_changes">
+                  <li>- Refresh arrows were changed to <span class="important">Share Location function</span>: It was redundant since the frame can be refreshed by swiping down</li>
+                  <li>- Bookmark icon was replaced with a <span class="important">Star Icon</span> to represent the user's <span class="important">favorites</span></li>
+                  <li>- <span class="important">Extended the top navigation bar</span> to include the back button and the other icons to give a sense of <span class="important">separation</span> from the key content on the screen</li>
+                  <li>- <span class="important">Added space</span> between the icons as they were too close together</li>
+                  <li>- <span class="important">Increased the font size</span> of the bus stop name, allowing more <span class="important">distinct hierarchy</span> for the frame</li>
+                  <li>- <span class="important">Removed the gray background</span> of the bus lines and used lines instead to <span class="important">visually open up the design</span> as well as making it easier to read</li>
+                  <li>- The call to actions in the footer navigation bar were <span class="important">moved up</span> since they were bleeding into the safe zone of the device</li>
+                </ul>
+          </div>
+          <!-- Final Iteration -->
+          <div class="wrapper_casestudy">
+            <h5 class="Busybus_page">Final Stop</h5>
+              <section class="final_stop">
+                <p class="Busybus_page">There were major changes from the second high fidelity iteration to the coded version because the client provided the asset containing the routes and arrival frequency of each bus that services the Washington and State bus stop at this stage.</p>
+                <figure class="final_iteration">
+                  <img class="BB_final" src="images/busybus.png" alt="final_iteration"/>
+                    <figcaption>Final Iteration
+                    </figcaption>
+                </figure>
+                <p class="Busybus_page">Changes for the final iteration were:</p>
+                  <ul class="final_iteration">
+                    <li>- <span class="important">Removed "inbound/outbound" segmented control</span> due to the multiple categories provided in the asset</li>
+                    <li>- By <span class="important">listing</span> all the bus lines and <span class="important">separating</span> them by the categories, it is easier for the user to see all the transit options by just scrolling</li>
+                    <li>- The <span class="important">icons in the header navigation bar</span> in the paper and visual design prototype have been replaced with a <span class="important">menu icon</span>. Since there could be additional calls to action that are important to users, such as accessing other favorites, checking on general alerts, or overal setting preferences. With multiple options, I compiled them into a menu, rather than have 4 or 5 icons in the frame.</li>
+                  </ul>
+            </section>
+          </div>
+          <!-- Results and Takeaways -->
+          <section class="BB_results">
+            <div class="wrapper_casestudy">
+              <h2 class="Busybus_page">Results and Takeaways</h2><br>
+              <!-- Link to Coded Prototype -->
+              <a href="https://ekong419.github.io/frontend_challenge/" class="BB_link">View Coded Prototype</a><br>
+              <p class="Busybus_page">The final product solves the problem riders were having with the bus stop at Washington and State. BusyBus informs users the arrival times of buses servicing Washington and State. The product also provides users with a visual aid, mapping out the user's current location as well as the location of the desired bus stop.</p>
+              <p class="Busybus_page">A few takeaways from this project:</p>
+              <p class="Busybus_page"><span class="important">Expect the unexpected:</span> The client's requirements can change at any point in time. I started off designing the app going in one direction, however when the client provided the content of the app, the design drastically changed to accomodate the information. The project taught me to be flexible and quick to adapt.</p>
+              <p class="Busybus_page"><span class="important">Lost in translation:</span> BusyBus taught me to design realistically. Even if a designer creates the most aesthetically pleasing, user-friendly design, it may not translate well when coded. I learned to create designs that are not only user-friendly, but that also work well within the digital world.</p>
+            </div>
+          </section>
+          <!-- Footer - Connect with Me -->
+          <footer>
+            <h3>Connect with me:</h3>
+              <div class="icons">
+                <p class="homepage"><a href="mailtoelizabethtkong@gmail.com" class="icon_links"><i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i></a></p>
+                <p class="homepage"><a href="https://linkedin.com/in/elizabth-kong3" class="icon_links"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></p>
+                <p class="homepage"><a href="https://github.com/ekong419" class="icon_links"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a></p>
+              </div>
+              <h4>© 2020 Elizabeth Kong | Design & Developed</h4>
+          </footer>
+        </div>
+      </body>
+    </html>
