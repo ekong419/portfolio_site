@@ -12,14 +12,12 @@ body {
   padding: 0;
   color: #000000;
   width: 100%;
-
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-
 }
 
 /* Logo links to Home page */
@@ -31,7 +29,6 @@ body {
   align-items: center;
   padding: 5px;
   margin-top: 20px;
-
 }
 
 .nav_bar {
@@ -89,6 +86,27 @@ a.case_studies:hover {
 }
 
 a.case_studies:active {
+  color: #BDC8B5;
+  text-decoration: underline;
+}
+
+/* "Resume" nav */
+a.resume:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.resume:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.resume:hover {
+  color: #E6E1E2;
+  text-decoration: underline;
+}
+
+a.resume:active {
   color: #BDC8B5;
   text-decoration: underline;
 }
@@ -165,8 +183,6 @@ li span.location {
   margin-bottom: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
-
-
 }
 
 /* Project Title */
@@ -335,7 +351,6 @@ h4 {
 
 /* About page */
 
-
 .hero_bio {
   column-count: 2;
   display: block;
@@ -344,14 +359,12 @@ h4 {
   padding: 10px;
   vertical-align: middle;
 
-
 }
 
 .wrapper_header {
   padding: 2.5em;
   background-color: #E88D83
 }
-
 
 img.bio {
   max-width: 100%;
@@ -429,6 +442,43 @@ p.Quote {
   text-align: center;
   line-height: 1.7;
 }
+
+/* Resume page */
+
+  .wrapper_resume {
+  margin: 2.5em;
+}
+
+.resume {
+  text-align: center;
+}
+
+  img.resume {
+    width: 100%
+    height: auto;
+
+  }
+
+  .button_resume {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .resume_button {
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    margin: 0 0.1em 0.1em 0;
+    border: solid #425A9F;
+    border-radius: .5em;
+    background-color: #425A9F;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+  }
 
 
 /* LeChef project page */
@@ -1108,6 +1158,7 @@ p.Quote {
       color: #343545;
       text-decoration: none;
     }
+  }
 
 /* Responsive design - Tablet view */
 
@@ -1163,8 +1214,6 @@ p.Quote {
       font-size: 1rem;
     }
 
-
-
     h3 {
       font-size: 1.1rem;
     }
@@ -1213,6 +1262,7 @@ p.Quote {
       line-height: 1.9;
     }
 
+    /* Resume page */
 
     /* LeChef project */
 
@@ -1319,7 +1369,6 @@ p.Quote {
       text-align: left;
       column-gap: 2em;
 
-
     }
 
     .personaA {
@@ -1345,11 +1394,9 @@ p.Quote {
       width: 40%;
     }
 
-
-
     ul.key li {
       font-size: 1.3rem;
-      /*margin-bottom: 10px;*/
+
     }
 
     /* Wireframes */
@@ -1375,9 +1422,7 @@ p.Quote {
       padding-left: 20px;
       margin-left: 10px;
 
-
     }
-
 
     .A_recipe figcaption {
       padding-left: 80px;
@@ -1395,7 +1440,6 @@ p.Quote {
       font-size: 1.3rem;
       padding-right: 100px;
     }
-
 
     .conversion_a {
       width: 100%;
@@ -1860,6 +1904,8 @@ p.Quote {
     line-height: 1.9;
   }
 
+  /* Resume page */
+
 
   /* LeChef page */
 
@@ -1906,8 +1952,6 @@ p.Quote {
     column-gap: 1em;
     column-rule-color: #979797;
     column-rule-width: .09rem;
-
-
   }
 
   .grid-container h6.Lechef_page {
@@ -2020,8 +2064,6 @@ p.Quote {
   .frames {
     width: 20%;
   }
-
-
 
   ul.key li {
     font-size: 1.3rem;
@@ -2204,7 +2246,6 @@ p.Quote {
     column-gap: 1em;
     column-rule-color: #979797;
     column-rule-width: .09rem;
-
 
   }
 
