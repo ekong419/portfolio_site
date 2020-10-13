@@ -647,6 +647,16 @@ p.Quote {
     font-weight: 200;
   }
 
+  span.type {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+  }
+
+  span.color_Lechef {
+    color: #FA6D4D;
+    font-weight: 600;
+  }
+
   /* User Stories */
 
     ul.user_stories li {
@@ -865,7 +875,7 @@ p.Quote {
     p.Busybus_page {
       padding: 15px;
       font-size: 1rem;
-      line-height: 1.4;
+      line-height: 1.6;
       font-family: 'Times New Roman', serif;
     }
 
@@ -991,11 +1001,15 @@ p.Quote {
     }
 
 
-    p.BB_captions {
-      font-family: 'Helvetica', 'SF Pro Text', sans-serif;
+    ul.BB_captions {
       padding: 15px;
       font-size: 1rem;
       line-height: 1.4;
+    }
+
+    span.color {
+      color: #0056B3;
+      font-weight: 600;
     }
 
     .next_stop {
@@ -1167,7 +1181,6 @@ p.Quote {
       padding-top: 30px;
       line-height: 1.8;
       padding-right: 50px;
-
     }
 
     h2.About {
@@ -1286,10 +1299,11 @@ p.Quote {
     h2.Lechef_page {
       padding: 30px;
       padding-left: 100px;
+      font-size: 1.5rem;
     }
 
     h5.Lechef_page {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       line-height: 1.9;
       padding-left: 100px;
       padding-right: 100px;
@@ -1319,10 +1333,6 @@ p.Quote {
       height: auto;
       padding-bottom: 45px;
     }
-
-    /*li.persona_location {
-      padding-bottom: 20px;
-    }*/
 
 
     /* User Stories */
@@ -1481,6 +1491,185 @@ p.Quote {
 
     }
 
+    /* BusyBus Project */
+
+    img.busybus {
+      width: 70%;
+    }
+
+    h1.Busybus_page {
+      padding: 30px;
+      padding-left: 100px;
+      font-size: 2.5rem;
+    }
+
+    h6.Busybus_page {
+      padding: 30px;
+      padding-left: 100px;
+      font-size: 1rem;
+
+    }
+
+    p.Busybus_page {
+      padding-left: 100px;
+      font-size: 1.3rem;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    .BB_button {
+      font-size: 1rem;
+    }
+
+    /* Project Role // Deliverable// Details */
+
+    .BB_Roles h6.Busybus_page{
+      text-align: center;
+      margin-right: 70px;
+    }
+
+    .BB_Deliverables h6.Busybus_page {
+      text-align: center;
+      padding-left: 30px;
+    }
+
+    .BB_Details h6.Busybus_page {
+      text-align: center;
+      padding-left: 30px;
+    }
+
+    ul.Roles_BB {
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.5;
+      margin: 10px;
+
+    }
+
+    ul.Deliverables_BB {
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.5;
+      margin: 10px;
+
+    }
+
+    ul.Details_BB {
+      text-align: center;
+      line-height: 1.5;
+      margin: 10px;
+
+    }
+
+    ul.Details_BB li {
+      font-size: 1rem;
+    }
+
+    li span.BB_details {
+      text-align: center;
+      font-weight: 700;
+      margin-top: 4px;
+      font-size: 1rem;
+
+    }
+
+    h2.Busybus_page {
+      padding: 30px;
+      padding-left: 100px;
+      font-size: 1.5rem;
+    }
+
+    h5.Busybus_page {
+      font-size: 1.5rem;
+      line-height: 1.9;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    /* Product Vision */
+
+    ul.product_vision {
+      padding-left: 100px;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.product_vision li {
+      font-size: 1.4rem;
+    }
+
+    /* Paper prototype captions */
+
+    ul.BB_captions {
+      padding-left: 100px;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.BB_captions li {
+      font-size: 1.3rem;
+    }
+
+    /* Iterations */
+
+    .BB_first {
+      width: 100%;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+    }
+
+    .BB_second {
+      width: 100%;
+      padding-top: 20px;
+      padding-right: 100px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      margin-left: 10px;
+    }
+
+    .BB_iterationA figcaption {
+      padding-left: 80px;
+      padding-bottom: 15px;
+      padding-top: 5px;
+
+    }
+
+    .BB_iterationB figcaption {
+      padding-right: 50px;
+      padding-bottom: 20px;
+    }
+
+    ul.iteration_changes {
+      padding-left: 100px;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.iteration_changes li {
+      font-size: 1.3rem;
+    }
+
+    /* Final Stop */
+
+    ul.final_iteration {
+      padding-left: 100px;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.final_iteration li {
+      font-size: 1.3rem;
+    }
+
+    .BB_results a {
+      padding-left: 85px;
+      font-size: 1rem;
+      font-weight: 700;
+
+    }
+
 }
 
 /* Responsive Design - Desktop view */
@@ -1635,7 +1824,10 @@ p.Quote {
   h1.bio {
     font-size: 1.8rem;
     line-height: 1.7;
-    padding-right: 100px;
+    padding-right: 200px;
+    padding-top: 80px;
+
+    }
   }
 
   h2.About {
@@ -2025,24 +2217,23 @@ p.Quote {
 
   .details_icons_BB {
     padding-left: 30px;
-
   }
 
-  h6.Busybus_page {
-    padding-right: 160px;
-  }
-
-  /*.Deliverables_BB h6.Busybus_page {
+  .BB_Roles h6.Busybus_page {
     text-align: center;
-    padding-top: 25px;
     padding-left: 70px;
   }
 
-  .Details_BB h6.Busybus_page {
+  .BB_Deliverables h6.Busybus_page {
     text-align: center;
-    padding-top: 25px;
+    padding-left: 70px;
+  }
+
+  .BB_Details h6.Busybus_page {
+    text-align: center;
     padding-left: 80px;
-  }*/
+  }
+
 
   ul.Roles_BB {
     font-size: 1rem;
@@ -2084,18 +2275,23 @@ p.Quote {
   h2.Busybus_page {
     padding: 30px;
     padding-left: 200px;
+    font-size: 1.5rem;
   }
 
   h5.Busybus_page {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.9;
     padding-left: 200px;
     padding-right: 200px;
   }
 
-  ul.product_vision li {
+  ul.product_vision {
     padding-left: 200px;
-    font-size: 1.3rem;
+    padding-right: 200px;
+  }
+
+  ul.product_vision li {
+    font-size: 1.4rem;
   }
 
   .BB_paper_wireframes {
@@ -2103,7 +2299,6 @@ p.Quote {
     column-count: 2;
     display: inline-block;
     background-color: #000000;
-
 
   }
 
@@ -2113,11 +2308,10 @@ p.Quote {
     clear: right;
     padding: 30px;
     margin-left: 250px;
-
   }
 
 
-  p.BB_captions {
+  ul.BB_captions {
     padding-right: 200px;
     font-size: 1.3rem;
     color: #ffffff;
@@ -2125,7 +2319,7 @@ p.Quote {
     line-height: 1.9;
     float: right;
     clear: left;
-    padding-top: 100px;
+    padding-top: 50px;
 
   }
 
@@ -2148,17 +2342,21 @@ p.Quote {
   }
 
   .BB_iterationA figcaption {
-    padding-left: 100px;
+    padding-left: 120px;
     margin-bottom: 10px;
   }
 
   .BB_iterationB figcaption {
-    padding-right: 220px;
+    padding-right: 190px;
     margin-bottom: 10px;
   }
 
-  ul.iteration_changes li {
+  ul.iteration_changes {
     padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  ul.iteration_changes li {
     font-size: 1.3rem;
   }
 
@@ -2166,8 +2364,12 @@ p.Quote {
     width: 40%;
   }
 
-  ul.final_iteration li {
+  ul.final_iteration {
     padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  ul.final_iteration li {
     font-size: 1.3rem;
   }
 
