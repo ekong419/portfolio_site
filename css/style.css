@@ -125,11 +125,11 @@ ul.header li {
 /* Intro word emphasis */
 
 li span.name {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 li span.location {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .work {
@@ -358,7 +358,7 @@ img.bio {
   height: auto;
   float: left;
   clear: right;
-  padding-top: 15px;
+
 }
 
 
@@ -366,22 +366,12 @@ h1.bio {
   font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   color: #000000;
   text-align: left;
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: .95rem;
+  line-height: 1.3;
   float: right;
   clear: left;
   padding-top: 5px;
   padding-left: 15px;
-}
-
-h1.bio span.name {
-  font-weight: 700;
-}
-
-h1.bio span.position {
-  /*font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
-  font-style: italic;*/
-  text-transform: uppercase;
 }
 
 .wrapper_about {
@@ -597,14 +587,49 @@ p.Quote {
 
   /* User Personas */
 
-  .persona1 {
-    width: 100%;
-    height: auto;
+  .user_persona {
+    padding: 15px;
+    text-align: center;
+    background-color: #E6E1E2;
+    margin-bottom: 20px;
   }
 
-  .persona2 {
-    width: 100%;
+  ul.persona_info {
+    line-height: 1.4;
+    font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+  }
+
+  .personaA {
+    width: 60%;
     height: auto;
+    padding-bottom: 20px;
+  }
+
+  .personaB {
+    width: 60%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  li.persona_name {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  li.persona_occupation {
+    font-style: italic;
+  }
+
+  li.persona_header {
+    text-transform: uppercase;
+  }
+
+  li.persona_quote {
+    font-style: italic;
+    font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
+    font-weight: 600;
   }
 
   /* Branding Section */
@@ -1089,17 +1114,17 @@ p.Quote {
       padding-left: 80px;
     }
 
+    ul.header {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
     li span.name {
       font-size: 2.5rem;
     }
 
     li span.location {
       font-size: 1.8rem;
-    }
-
-    li span.passion {
-      font-size: 1.6rem;
-
     }
 
     #recent_work {
@@ -1134,11 +1159,12 @@ p.Quote {
 
     img.bio {
       padding-left: 100px;
+      padding-top: 10px;
     }
 
     h1.bio {
       font-size: 1.3rem;
-      padding-top: 60px;
+      padding-top: 30px;
       line-height: 1.8;
       padding-right: 50px;
 
@@ -1268,6 +1294,36 @@ p.Quote {
       padding-left: 100px;
       padding-right: 100px;
     }
+
+    .user_persona {
+      column-count: 2;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      padding-right: 100px;
+      padding-left: 100px;
+      text-align: left;
+      column-gap: 2em;
+
+
+    }
+
+    .personaA {
+      width: 100%;
+      height: auto;
+      padding-bottom: 45px;
+    }
+
+    .personaB {
+      width: 100%;
+      height: auto;
+      padding-bottom: 45px;
+    }
+
+    /*li.persona_location {
+      padding-bottom: 20px;
+    }*/
+
 
     /* User Stories */
 
@@ -1448,6 +1504,11 @@ p.Quote {
       padding-left: 200px;
   }
 
+  ul.header {
+    padding-left: 330px;
+    padding-right: 330px;
+  }
+
   li span.name {
     font-size: 2.5rem;
   }
@@ -1456,10 +1517,6 @@ p.Quote {
     font-size: 1.8rem;
   }
 
-  li span.passion {
-    font-size: 1.6rem;
-
-  }
 
   /* Homepage */
 
@@ -1569,17 +1626,16 @@ p.Quote {
 
   img.bio {
     width: 70%;
-    /*padding: 30px;*/
-    padding-left: 200px;
-    margin-left: 150px;
+    padding: 30px;
+    padding-left: 100px;
+    margin-left: 100px;
 
   }
 
   h1.bio {
-    font-size: 2rem;
-    line-height: 1.9;
-    padding-right: 200px;
-    padding-top: 40px;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    padding-right: 100px;
   }
 
   h2.About {
@@ -1676,7 +1732,7 @@ p.Quote {
 
   .Roles h6.Lechef_page {
     text-align: center;
-    margin-right: 135px;
+    padding-left: 70px;
   }
 
   .Deliverables h6.Lechef_page {
@@ -1735,15 +1791,22 @@ p.Quote {
 
   /* User Persona */
 
-  .persona1 {
-    width: 49%;
-    padding: 20px 25px 20px 200px;
+  .user_persona {
+    padding-left: 200px;
+    padding-right: 200px;
 
   }
 
-  .persona2 {
-    width: 49%;
-    padding: 20px 200px 20px 25px;
+  .personaA {
+    width: 50%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .personaB {
+    width: 50%;
+    height: auto;
+    padding-bottom: 10px;
 
   }
 
@@ -1800,13 +1863,13 @@ p.Quote {
 
 
   .A_recipe figcaption {
-    padding-left: 80px;
+    padding-left: 110px;
     padding-bottom: 20px;
 
   }
 
   .B_recipe figcaption {
-    padding-right: 220px;
+    padding-right: 190px;
     padding-bottom: 20px;
   }
 
@@ -1835,13 +1898,13 @@ p.Quote {
   }
 
   .A_conversion figcaption {
-    padding-left: 80px;
-    padding-bottom: 35px;
+    padding-left: 120px;
+    padding-bottom: 20px;
 
   }
 
   .B_conversion figcaption {
-    padding-right: 220px;
+    padding-right: 190px;
     padding-bottom: 20px;
   }
 
@@ -1864,14 +1927,15 @@ p.Quote {
   }
 
   .A_create figcaption {
-    padding-left: 80px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-left: 120px;
+    padding-bottom: 20px;
+
   }
 
   .B_create figcaption {
-    padding-right: 220px;
-    padding-bottom: 30px;
+    padding-right: 190px;
+    padding-bottom: 25px;
+
   }
 
   .share_a {
@@ -1893,14 +1957,14 @@ p.Quote {
   }
 
   .A_share figcaption {
-    padding-left: 80px;
+    padding-left: 120px;
     padding-bottom: 20px;
     padding-top: 10px;
 
   }
 
   .B_share figcaption {
-    padding-right: 220px;
+    padding-right: 190px;
     padding-bottom: 20px;
 
   }
