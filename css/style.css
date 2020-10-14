@@ -20,6 +20,8 @@ body {
   padding: 0;
 }
 
+@media screen and (min-width: 300px) {
+
 /* Logo links to Home page */
 
 .logo {
@@ -363,7 +365,7 @@ h4 {
 
 .wrapper_header {
   padding: 2.5em;
-  background-color: #E88D83
+  background-color: #E88D83;
 }
 
 img.bio {
@@ -454,7 +456,7 @@ p.Quote {
 }
 
   img.resume {
-    width: 100%
+    width: 100%;
     height: auto;
 
   }
@@ -477,7 +479,7 @@ p.Quote {
     font-weight: 500;
     color: #ffffff;
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
 
@@ -1264,6 +1266,10 @@ p.Quote {
 
     /* Resume page */
 
+    .resume_button {
+      font-size: 1rem;
+    }
+
     /* LeChef project */
 
     img.homepage {
@@ -1905,7 +1911,9 @@ p.Quote {
   }
 
   /* Resume page */
-
+  img.resume {
+    width: 70%;
+  }
 
   /* LeChef page */
 
@@ -2034,13 +2042,13 @@ p.Quote {
   }
 
   .personaA {
-    width: 20%;
+    width: 30%;
     height: auto;
     padding-bottom: 10px;
   }
 
   .personaB {
-    width: 20%;
+    width: 30%;
     height: auto;
     padding-bottom: 10px;
 
