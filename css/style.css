@@ -20,8 +20,6 @@ body {
   padding: 0;
 }
 
-@media screen and (min-width: 300px) {
-
 /* Logo links to Home page */
 
 .logo {
@@ -1160,7 +1158,6 @@ p.Quote {
       color: #343545;
       text-decoration: none;
     }
-  }
 
 /* Responsive design - Tablet view */
 
@@ -1650,6 +1647,10 @@ p.Quote {
 
     /* Paper prototype captions */
 
+    img.paper_prototype {
+      width: 30%;
+    }
+
     ul.BB_captions {
       padding-left: 100px;
       padding-right: 100px;
@@ -1875,10 +1876,9 @@ p.Quote {
     font-size: 1.8rem;
     line-height: 1.7;
     padding-right: 200px;
-    padding-top: 80px;
+    padding-top: 50px;
 
     }
-  }
 
   h2.About {
     padding: 30px;
@@ -2042,13 +2042,13 @@ p.Quote {
   }
 
   .personaA {
-    width: 30%;
+    width: 40%;
     height: auto;
     padding-bottom: 10px;
   }
 
   .personaB {
-    width: 30%;
+    width: 40%;
     height: auto;
     padding-bottom: 10px;
 
