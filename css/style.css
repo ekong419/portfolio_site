@@ -2042,15 +2042,15 @@ p.Quote {
   }
 
   .personaA {
-    width: 40%;
+    width: 35%;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   .personaB {
-    width: 40%;
+    width: 35%;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 
   }
 
@@ -2140,7 +2140,7 @@ p.Quote {
   }
 
   .A_conversion figcaption {
-    padding-left: 120px;
+    padding-left: 105px;
     padding-bottom: 20px;
 
   }
@@ -2169,7 +2169,7 @@ p.Quote {
   }
 
   .A_create figcaption {
-    padding-left: 120px;
+    padding-left: 105px;
     padding-bottom: 20px;
 
   }
@@ -2199,7 +2199,7 @@ p.Quote {
   }
 
   .A_share figcaption {
-    padding-left: 120px;
+    padding-left: 105px;
     padding-bottom: 20px;
     padding-top: 10px;
 
