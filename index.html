@@ -21,28 +21,30 @@
   </head>
   <body>
     <div class="container">
+      <header class="header">
     <!-- Logo links to homepage-->
-    <section class="logo">
+
+    <div class="logo_container">
       <a href="index.html">
         <img class="logo" src="images/logo.png" alt="logo"/>
       </a>
-    </section>
-    <nav class="nav_bar">
-    <!-- Navbar links will be functional when pages have been built -->
-      <ul class="nav_bar">
+    </div>
+    <nav>
+      <div class="nav_links">
+        <ul class="nav_bar">
         <li><a href="biography.html" class="biography">About</a></li>
         <li><a href="#recent_work" class="case_studies">Work</a></li>
         <li><a href="images/ekong_resume.pdf" class="resume" target="_blank">Resume</a></li>
       </ul>
+    </div>
     </nav>
-    <section class="hero_homepage">
-      <div class="wrapper_hero">
-        <ul class="header">
-        <!--Hero text is multiple sizes -->
-          <li><span class="location">hello!</span> my name is <span class="name">elizabeth kong</span><br> i'm a <span class="location">product designer</span> based in <br><span class="location">san francisco</span></li>
-        </ul>
+  </header>
+  <div class="hero">
+      <img class="hero_homepage" src="images/hero.jpg" alt="hero_homepage"/>
+      <div class="hero_text">
+        <p class="img_text">hello!<br>my name is<br><span class="name">elizabeth kong</span><br>i'm a<span class="location"> product designer</span><br>based in<br><span class="location">san francisco</span></p>
       </div>
-    </section>
+    </div>
     <!-- Overview of Projects -->
     <section class="work">
       <h6><a id="recent_work">My Recent Work</a></h6>
@@ -54,7 +56,7 @@
         <p class="homepage">No more heavy cookbooks or misplaced recipes. Organize, customize, and share recipes with fellow chefs.</p>
           <img class="lechef_homepage" src="images/lechef_homepage.png" alt="lechef_homepage"/>
             <section class="button_homepage">
-              <a href="project.html" class="case_studies" target="_blank"><button class="figma_button_homepage">View LeChef Case Study</button>
+              <a href="project.html" class="case_studies"><button class="figma_button_homepage">View LeChef Case Study</button>
               </a>
             </section>
     </section>
@@ -65,7 +67,7 @@
         <p class="homepage">Tired of missing your bus by mere seconds? Now you can plan ahead with real-time arrival times and maps.</p>
           <img class="Busybus" src="images/busybus.png" alt="busybus"/>
           <section class="button_homepage">
-            <a href="project_bus.html" class="case_studies" target="_blank"><button class="Bus_button">View BusyBus Case Study</button>
+            <a href="project_bus.html" class="case_studies"><button class="Bus_button">View BusyBus Case Study</button>
             </a>
           </section>
     </section>
