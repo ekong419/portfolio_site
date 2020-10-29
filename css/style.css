@@ -26,6 +26,8 @@ header {
   z-index: 1;
   width: 100%;
   justify-content: space-between;
+  position: fixed;
+  background-color: #ffffff;
 
 }
 
@@ -142,6 +144,7 @@ img.hero_homepage {
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 110px;
 
 }
 
@@ -382,12 +385,14 @@ h4 {
   align-items: center;
   padding: 10px;
   vertical-align: middle;
+  margin-top: 110px;
 
 }
 
 .wrapper_header {
   padding: 2.5em;
   background-color: #E88D83;
+
 }
 
 img.bio {
@@ -512,12 +517,11 @@ p.Quote {
   .hero_lechef {
     background-color: #FFB884;
     width: 100%;
-  }
-
-  header.lechef {
     justify-content: center;
     align-items: center;
+    padding-top: 120px;
   }
+
 
   img.homepage {
     width: 100%;
@@ -668,6 +672,48 @@ p.Quote {
     font-style: italic;
   }
 
+  /* Competitive Analysis */
+
+  img.recipebox_logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .comp_logo {
+    text-align: center;
+  }
+
+  img.pinterest_logo {
+    width: 70%;
+    height: auto;
+  }
+
+  ul.strength_lechef {
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Crimson Text', 'EB Garamond', serif;
+    border-bottom: 1px solid #dbd9d9;
+  }
+
+  ul.weakness_lechef {
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Crimson Text', 'EB Garamond', serif;
+  }
+
+
+  ul.opportunity_lechef {
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Crimson Text', 'EB Garamond', serif;
+
+  }
+
+
+
   /* User Personas */
 
   .user_persona {
@@ -684,8 +730,12 @@ p.Quote {
     font-weight: 300;
   }
 
+  .user_persona_img {
+    text-align: center;
+  }
+
   .personaA {
-    width: 60%;
+    width: 70%;
     height: auto;
     padding-bottom: 20px;
   }
@@ -713,7 +763,7 @@ p.Quote {
   li.persona_quote {
     font-style: italic;
     font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
-    font-weight: 600;
+
   }
 
   /* Branding Section */
@@ -974,11 +1024,8 @@ p.Quote {
   .hero_busybus {
     background-color: #000000;
     width: 100%;
-  }
-
-  header.busybus {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 115px;
   }
 
     img.busybus_final {
@@ -1166,14 +1213,14 @@ p.Quote {
     }
 
     .persona1_bb {
-      width: 100%;
+      width: 80%;
       height: auto;
       padding-bottom: 20px;
 
     }
 
     .persona2_bb {
-      width: 100%;
+      width: 80%;
       height: auto;
       padding-bottom: 20px;
     }
@@ -1417,6 +1464,10 @@ p.Quote {
     padding-right: 30px;
   }
 
+  img.hero_homepage {
+    margin-top: 100px;
+  }
+
   p.img_text {
     font-size: 1.3rem;
     line-height: 1.7;
@@ -1461,16 +1512,17 @@ p.Quote {
 
     /* About page */
 
+
     img.bio {
       padding-left: 100px;
-      padding-top: 10px;
+      padding-top: 60px;
       width: 100%;
       padding-right: 10px;
     }
 
     h1.bio {
       font-size: 1.3rem;
-      padding-top: 20px;
+      padding-top: 60px;
       line-height: 1.8;
       padding-right: 50px;
     }
@@ -1513,14 +1565,14 @@ p.Quote {
 
     /* LeChef project */
 
-    header.lechef {
-      justify-content: center;
-      align-items: center;
+    .hero_lechef {
+      text-align: center;
+      padding-top: 160px;
     }
-
 
     img.homepage {
       width: 70%;
+      padding-top: 20px;
     }
 
     h1.Lechef_page {
@@ -1604,6 +1656,45 @@ p.Quote {
       line-height: 1.9;
       padding-left: 100px;
       padding-right: 100px;
+    }
+
+    /* Competitive Analysis */
+
+    ul.strength_lechef {
+      padding-left: 100px;
+      font-size: 1.3rem;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.weakness_lechef {
+      padding-left: 100px;
+      font-size: 1.3rem;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    ul.opportunity_lechef {
+      padding-left: 100px;
+      font-size: 1.3rem;
+      padding-right: 100px;
+      line-height: 1.9;
+    }
+
+    img.pinterest_logo {
+      width: 70%;
+      height: auto;
+    }
+
+    img.pinterest_logo {
+      width: 50%;
+      height: auto;
+    }
+
+    /* User Persona */
+
+    .user_persona_img {
+      text-align: left;
     }
 
     .user_persona {
@@ -1813,6 +1904,10 @@ p.Quote {
 
     /* BusyBus Project */
 
+    .hero_busybus {
+      padding-top: 160px;
+    }
+
     img.busybus {
       width: 70%;
     }
@@ -1898,6 +1993,14 @@ p.Quote {
 
     .comp_logo {
       padding: 20px 100px
+    }
+
+    img.moovit_logo {
+      width: 70%;
+    }
+
+    img.citymapper_logo {
+      width: 70%;
     }
 
     ul.strength {
@@ -2087,6 +2190,7 @@ p.Quote {
   img.hero_homepage {
     width: 100%;
     height: 800px;
+    margin-top: 100px;
   }
 
   p.img_text {
@@ -2214,10 +2318,9 @@ p.Quote {
 
   img.bio {
     width: 60%;
-    padding: 30px;
     padding-left: 100px;
     margin-left: 100px;
-    /*margin: 30px;*/
+    padding-top: 120px;
 
   }
 
@@ -2225,7 +2328,7 @@ p.Quote {
     font-size: 1.8rem;
     line-height: 1.7;
     padding-right: 300px;
-    padding-top: 30px;
+    padding-top: 90px;
 
 
     }
@@ -2269,8 +2372,8 @@ p.Quote {
 
   /* Hero section */
 
-  header.lechef img.homepage {
-    width: 40%;
+  img.homepage {
+    width: 50%;
   }
 
   h1.Lechef_page {
@@ -2352,6 +2455,39 @@ p.Quote {
     padding-left: 320px;
   }
 
+  /* Competitive Analysis */
+
+  ul.strength_lechef {
+    padding-left: 320px;
+    font-size: 1.3rem;
+    padding-right: 320px;
+    line-height: 1.9;
+  }
+
+  ul.weakness_lechef {
+    padding-left: 320px;
+    font-size: 1.3rem;
+    padding-right: 320px;
+    line-height: 1.9;
+  }
+
+  ul.opportunity_lechef {
+    padding-left: 320px;
+    font-size: 1.3rem;
+    padding-right: 320px;
+    line-height: 1.9;
+  }
+
+  img.recipebox_logo {
+    width: 70%;
+    height: auto;
+  }
+
+  img.pinterest_logo {
+    width: 50%;
+    height: auto;
+  }
+
   /* User Persona */
 
   .user_persona {
@@ -2361,20 +2497,19 @@ p.Quote {
   }
 
   .personaA {
-    width: 45%;
+    width: 35%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   .personaB {
-    width: 50%;
+    width: 40%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 
   }
-
 
   h5.Lechef_page {
     font-size: 1.3rem;
@@ -2564,7 +2699,7 @@ p.Quote {
   /* Project 2 - Busy Bus */
 
   img.busybus_final {
-    width: 40%;
+    width: 60%;
   }
 
   h1.Busybus_page {
@@ -2661,11 +2796,11 @@ p.Quote {
   }
 
   img.moovit_logo {
-    width: 100%;
+    width: 60%;
   }
 
   img.citymapper_logo {
-    width: 100%;
+    width: 60%;
   }
 
   ul.strength {
@@ -2699,7 +2834,7 @@ p.Quote {
   }
 
   .persona2_bb {
-    width: 50%;
+    width: 55%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2826,7 +2961,7 @@ p.Quote {
     font-weight: 500;
     padding: 15px;
     font-size: 1rem;
-    padding-left: 180px;
+    padding-left: 330px;
 
   }
 
@@ -2834,6 +2969,6 @@ p.Quote {
     font-weight: 500;
     padding: 15px;
     font-size: 1rem;
-    padding-left: 200px;
+    padding-left: 330px;
   }
 }
