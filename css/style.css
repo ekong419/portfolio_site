@@ -178,7 +178,8 @@ p.img_text span.location {
 }
 
 .work {
-  margin: 20px;
+  margin: 30px;
+
 }
 
 /* "My Recent Work" */
@@ -186,7 +187,7 @@ p.img_text span.location {
   font-family: 'Crimson Text', 'EB Garamond', serif;;
   text-transform: uppercase;
   padding-left: 2.5em;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 /* Project 1 - LeChef */
@@ -198,6 +199,8 @@ p.img_text span.location {
   column-count: 2;
   column-gap: 4em;
   display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -286,6 +289,9 @@ p.homepage {
   column-count: 2;
   column-gap: 4em;
   display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
 .Busybus {
@@ -1484,8 +1490,12 @@ p.Quote {
     font-size: 1.6rem;
   }
 
+    .work {
+      margin: 50px;
+    }
+
     #recent_work {
-      padding-left: 50px;
+      padding-left: 2.5em;
     }
 
     h2.case_study_title {
