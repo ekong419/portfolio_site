@@ -18,6 +18,7 @@
 
     gtag('config', 'G-8E19LL8NDH');
   </script>
+  <script src="https://www.jsdelivr.com/package/npm/chart.js?path=dist"></script>
   </head>
   <body>
     <div class="container">
@@ -92,11 +93,11 @@
               </div>
               <h6 class="Lechef_page">Details</h6>
                 <ul class="Details">
-                  <li><span class="details_header">Duration</span></li>
+                  <li class="bold">Duration</li>
                   <li>4 weeks</li>
                 </ul>
                 <ul class="Details">
-                  <li><span class="details_header">Tools</span></li>
+                  <li class="bold">Tools</li>
                   <li>Figma</li>
                   <li>Adobe Illustrator</li>
                   <li>Adobe Photoshop</li>
@@ -121,6 +122,46 @@
             <p class="Lechef_page">I conducted a user survey to explore:</p>
             <p class="Lechef_page">- how <span class="important">recipes</span> are organized<br>- what types of <span class="important">organizational tools</span> people used<br>- desired <span class="important">app features</span><br>- people's <span class="important">social media habits</span></p>
             <p class="Lechef_page">There were a total of <span class="important">18</span> participants.</p>
+            <!--<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>-->
             <h5 class="Lechef_page">Key Discoveries</h5>
               <p class="Lechef_page">100% searched for food recipes on the internet</p>
               <p class="Lechef_page">1 out  of 18 currently use a recipe management app</p>
@@ -140,41 +181,51 @@
             <img class="recipebox_logo" src="images/recipebox.png" alt="recipebox"/>
           </div>
           <div class="sw">
-            <h5 class="Lechef_page">Strength</h5>
+            <section class="strength">
+            <h5 class="comp">Strength</h5>
             <ul class="strength_lechef">
-              <li>Easy to create/import recipes</li><br>
-              <li>Simple footer nav bar</li><br>
-              <li>Offers convenient mode for user - "Focus mode" prevents display from sleeping</li>
+              <li>• Easy to create/import recipes</li>
+              <li>• Simple footer nav bar</li>
+              <li>• Offers convenient mode for user - "Focus mode" prevents display from sleeping</li>
             </ul>
-            <h5 class="Lechef_page">Weakness</h5>
+          </section>
+          <section class="weakness">
+            <h5 class="comp">Weakness</h5>
             <ul class="weakness_lechef">
-              <li>No collaboration features</li><br>
-              <li>Difficult to search within categories</li><br>
-              <li>Personalized features only offered in premium version</li>
+              <li>• No collaboration features</li>
+              <li>• Difficult to search within categories</li>
+              <li>• Personalized features only offered in premium version</li>
             </ul>
+          </section>
           </div>
           <div class="comp_logo">
             <img class="pinterest_logo" src="images/pinterest.svg" alt="pinterest"/>
           </div>
           <div class="sw">
-            <h5 class="Lechef_page">Strength</h5>
+            <section class="strength">
+            <h5 class="comp">Strength</h5>
             <ul class="strength_lechef">
-              <li>Visually engaging with lots of pictures</li><br>
-              <li>Easy access to user's own boards (categories)</li>
+              <li>• Visually engaging with lots of pictures</li>
+              <li>• Easy access to user's own boards (categories)</li>
             </ul>
-            <h5 class="Lechef_page">Weakness</h5>
+          </section>
+          <section class="weakness">
+            <h5 class="comp">Weakness</h5>
             <ul class="weakness_lechef">
-              <li>Landing page is not organized into categories, which may be difficult for users to find relevant trending posts</li><br>
-              <li>"Pinning" a post is not visually obvious</li>
+              <li>• Landing page is not organized into categories, which may be difficult for users to find relevant trending posts</li>
+              <li>• "Pinning" a post is not visually obvious</li>
             </ul>
+          </section>
           </div>
           <div class="opp">
-            <p class="Lechef_page">The following were opportunities I found that would create a user-centric designed recipe management app.</p>
-            <h5 class="Lechef_page">Opportunity</h5>
+            <p class="Lechef_page">The following were opportunities I found that would create a user-centric designed recipe management app.</p><br>
+            <section class="opportunity">
+            <h5 class="comp">Opportunity</h5>
             <ul class="opportunity_lechef">
-              <li>Allow users easy access to own recipes as well as popular recipes</li><br>
-              <li>Offer more personalized features</li>
+              <li>• Allow users easy access to own recipes as well as popular recipes</li>
+              <li>• Offer more personalized features</li>
             </ul>
+          </section>
           </div>
         </section>
       </div>
