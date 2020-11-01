@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  padding: 1.5rem 0.4rem;
+  padding: 0.6rem 0.4rem;
   display: flex;
   z-index: 1;
   width: 100%;
@@ -140,20 +140,10 @@ a.resume:active {
 /* Hero intro */
 
 
-img.hero_homepage {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-top: 110px;
-
-}
-
-
 .hero_text {
   position: absolute;
-  /*top: 50%;*/
-  left: 65%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
 
 }
 
@@ -163,32 +153,35 @@ p.img_text {
   font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
   font-size: 1rem;
   color: #000000;
-  padding-bottom: 250px;
-  line-height: 1.5;
+  padding-bottom: 200px;
+  line-height: 1.8;
   text-align: left;
 }
 
 
 p.img_text span.name {
   text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 p.img_text span.location {
   text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #425A9F;
 }
 
-.work {
-  margin: 30px;
-
-}
 
 /* "My Recent Work" */
-#recent_work {
-  font-family: 'Crimson Text', 'EB Garamond', serif;;
-  text-transform: uppercase;
-  padding-left: 2.5em;
-  font-size: 1rem;
+  .work {
+  margin: 40px;
+  text-align: center;
 }
+
+  img.divider {
+    width: 20%;
+    height: auto;
+  }
 
 /* Project 1 - LeChef */
 
@@ -199,8 +192,8 @@ p.img_text span.location {
   column-count: 2;
   column-gap: 4em;
   display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -221,9 +214,8 @@ p.img_text span.location {
 h2.case_study_title {
   font-family: 'Crimson Text', 'EB Garamond', serif;
   padding-right: 15px;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 15px;
-  margin-top: 10px;
   margin-left: 2.5em;
   color: #343545;
   font-size: 1.3rem;
@@ -289,8 +281,8 @@ p.homepage {
   column-count: 2;
   column-gap: 4em;
   display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 
@@ -481,11 +473,11 @@ p.Quote {
 /* Resume page */
 
   .wrapper_resume {
-  margin: 2.5em;
+    margin: 2.5em;
 }
 
-.resume {
-  text-align: center;
+  .resume {
+    text-align: center;
 }
 
   img.resume {
@@ -560,7 +552,7 @@ p.Quote {
   }
 
   p.Lechef_page {
-    padding: 15px;
+    padding: 10px;
     font-size: 1rem;
     line-height: 1.4;
     font-family: 'Crimson Text', 'EB Garamond', serif;
@@ -645,10 +637,12 @@ p.Quote {
     font-family: 'Crimson Text', 'EB Garamond', serif;
   }
 
-  li span.details_header {
-    font-style: italic;
+  li.bold {
     margin-top: 4px;
     text-align: center;
+    font-weight: 800;
+    font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    color: #FA6D4D;
   }
 
   /* Problem to Solve */
@@ -680,6 +674,16 @@ p.Quote {
 
   /* Competitive Analysis */
 
+  h5.comp {
+    font-size: 1.1rem;
+    padding-top: 15px;
+    font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+
   img.recipebox_logo {
     width: 100%;
     height: auto;
@@ -695,7 +699,8 @@ p.Quote {
   }
 
   ul.strength_lechef {
-    padding: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Crimson Text', 'EB Garamond', serif;
@@ -703,7 +708,8 @@ p.Quote {
   }
 
   ul.weakness_lechef {
-    padding: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Crimson Text', 'EB Garamond', serif;
@@ -711,7 +717,7 @@ p.Quote {
 
 
   ul.opportunity_lechef {
-    padding: 15px;
+    margin-bottom: 20px;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Crimson Text', 'EB Garamond', serif;
@@ -781,10 +787,11 @@ p.Quote {
 
   h5.Lechef_page {
     font-size: 1.1rem;
-    padding: 15px;
-    font-family: 'Crimson Text', 'EB Garamond', serif;
-    font-style: italic;
-    font-weight: 200;
+    padding: 30px 15px 0 15px;
+    font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+
   }
 
   span.type {
@@ -1142,7 +1149,7 @@ p.Quote {
     }
 
     li span.BB_details {
-      font-style: italic;
+      font-weight: 700;
       margin-top: 4px;
       text-align: center;
     }
@@ -1156,12 +1163,14 @@ p.Quote {
       font-weight: 700;
     }
 
+
     h5.Busybus_page {
-      font-size: 1.2rem;
-      padding: 15px;
-      font-family: 'Times New Roman', serif;
-      font-style: italic;
+      font-size: 1.1rem;
+      padding: 30px 15px 0 15px;
+      font-family: 'Hind', 'Open Sans', 'Source Sans Pro', sans-serif;
       text-transform: uppercase;
+      font-weight: 500;
+
     }
 
     .comp_logo {
@@ -1178,6 +1187,10 @@ p.Quote {
     .sw {
       display: block;
       text-align: left;
+    }
+
+    h5.comp {
+      font-weight: 500;
     }
 
     ul.strength {
@@ -1475,27 +1488,28 @@ p.Quote {
   }
 
   p.img_text {
-    font-size: 1.3rem;
-    line-height: 1.7;
+    font-size: 1.5rem;
+    line-height: 1.8;
     padding-bottom: 500px;
 
   }
 
 
   p.img_text span.name {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   p.img_text span.location {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
+    font-weight: 800;
   }
 
     .work {
       margin: 50px;
     }
 
-    #recent_work {
-      padding-left: 2.5em;
+    img.divider {
+      width: 10%;
     }
 
     h2.case_study_title {
@@ -1669,6 +1683,14 @@ p.Quote {
     }
 
     /* Competitive Analysis */
+
+    h5.comp {
+      font-size: 1.5rem;
+      line-height: 1.9;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: left;
+    }
 
     ul.strength_lechef {
       padding-left: 100px;
@@ -2211,20 +2233,20 @@ p.Quote {
 
 
   p.img_text span.name {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   p.img_text span.location {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 800;
   }
 
   /* Homepage */
 
   /* "My Recent Work" */
 
-  #recent_work {
-    padding-left: 90px;
-    font-size: 1rem;
+  img.divider {
+    width: 10%;
   }
 
   /* Project 1 - LeChef */
@@ -2253,7 +2275,7 @@ p.Quote {
   /* Project title */
 
   h2.case_study_title {
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 30px;
     font-size: 2rem;
     text-align: center;
@@ -2467,17 +2489,39 @@ p.Quote {
 
   /* Competitive Analysis */
 
-  ul.strength_lechef {
-    padding-left: 320px;
+  .sw {
+    column-count: 2;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h5.comp {
     font-size: 1.3rem;
-    padding-right: 320px;
     line-height: 1.9;
+    padding-left: 320px;
+    padding-right: 320px;
+    text-align: left;
+  }
+
+  .weakness h5 {
+    padding-right: 500px;
+    padding-left: 110px;
+  }
+
+  ul.strength_lechef {
+    padding-left: 300px;
+    font-size: 1.3rem;
+    padding-right: 100px;
+    line-height: 1.9;
+    border-bottom: 0px;
   }
 
   ul.weakness_lechef {
-    padding-left: 320px;
+    padding-left: 100px;
     font-size: 1.3rem;
-    padding-right: 320px;
+    padding-right: 300px;
     line-height: 1.9;
   }
 
@@ -2489,7 +2533,7 @@ p.Quote {
   }
 
   img.recipebox_logo {
-    width: 70%;
+    width: 50%;
     height: auto;
   }
 
@@ -2507,14 +2551,14 @@ p.Quote {
   }
 
   .personaA {
-    width: 35%;
+    width: 40%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   .personaB {
-    width: 40%;
+    width: 35%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2659,13 +2703,13 @@ p.Quote {
   }
 
   .A_create figcaption {
-    padding-left: 180px;
+    padding-left: 170px;
     padding-bottom: 20px;
 
   }
 
   .B_create figcaption {
-    padding-right: 200px;
+    padding-right: 210px;
     padding-bottom: 25px;
 
   }
@@ -2814,17 +2858,20 @@ p.Quote {
   }
 
   ul.strength {
-    padding-left: 320px;
+    padding-left: 300px;
     font-size: 1.3rem;
-    padding-right: 320px;
+    padding-right: 100px;
     line-height: 1.9;
+    border-bottom: 0px;
+
   }
 
   ul.weakness {
-    padding-left: 320px;
+    padding-left: 100px;
     font-size: 1.3rem;
-    padding-right: 320px;
+    padding-right: 300px;
     line-height: 1.9;
+
   }
 
   ul.opportunity {
@@ -2833,6 +2880,15 @@ p.Quote {
     padding-right: 320px;
     line-height: 1.9;
   }
+
+  h5.comp {
+    margin-top: 20px;
+  }
+
+  .opp {
+    margin: 30px 0 30px 0;
+  }
+
 
   /* User persona */
 
