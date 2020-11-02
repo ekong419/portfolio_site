@@ -18,7 +18,7 @@
 
     gtag('config', 'G-8E19LL8NDH');
   </script>
-  <script src="https://www.jsdelivr.com/package/npm/chart.js?path=dist"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
     <div class="container">
@@ -128,9 +128,9 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Yes', 'No'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Users who would like to use a recipe management app to organize their recipes',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
