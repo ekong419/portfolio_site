@@ -167,8 +167,8 @@ p.img_text span.name {
 p.img_text span.location {
   text-transform: uppercase;
   font-size: 1.6rem;
-  font-weight: 800;
-  color: #425A9F;
+  font-weight: 900;
+  color: #C26D96;
 }
 
 
@@ -1254,6 +1254,7 @@ p.Quote {
     .user_flow {
       border: 1px solid #dbd9d9;
       margin: 10px;
+      text-align: center;
     }
 
     .user_flow h5.Busybus_page {
@@ -1780,6 +1781,16 @@ p.Quote {
       text-align: center;
     }
 
+    .user_flow1 {
+      width: 100%;
+      height: auto;
+    }
+
+    .user_flow2 {
+      width: 100%;
+      height: auto;
+    }
+
     /* Sketches */
 
     .sketch_lechef {
@@ -2078,6 +2089,13 @@ p.Quote {
       font-size: 1.3rem;
       padding-left: 100px;
       padding-right: 100px;
+    }
+
+    /* User flow */
+
+    img.user_flow_bb {
+      width: 80%;
+      height: auto;
     }
 
     .user_flow h5.Busybus_page {
@@ -2538,7 +2556,7 @@ p.Quote {
   }
 
   img.pinterest_logo {
-    width: 50%;
+    width: 40%;
     height: auto;
   }
 
@@ -2592,6 +2610,16 @@ p.Quote {
 
   .user_flow h5.Lechef_page {
     font-size: 1.2rem;
+  }
+
+  .user_flow1 {
+    width: 80%;
+    height: auto;
+  }
+
+  .user_flow2 {
+    width: 80%;
+    height: auto;
   }
 
   /* Sketches */
@@ -2922,6 +2950,11 @@ p.Quote {
   .user_flow h5.Busybus_page {
     font-size: 1.2rem;
     text-align: center;
+  }
+
+  img.user_flow_bb {
+    width: 80%;
+    height: auto;
   }
 
   ul.product_vision {
