@@ -79,7 +79,7 @@ a.biography:link {
 }
 
 a.biography:visited {
-  color: #425A9F;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ a.case_studies:link {
 }
 
 a.case_studies:visited {
-  color: #425A9F;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -121,12 +121,12 @@ a.resume:link {
 }
 
 a.resume:visited {
-  color: #425A9F;
+  color: inherit;
   text-decoration: none;
 }
 
 a.resume:hover {
-  color: #E88D83;
+  color: #C26D96;
   text-decoration: underline;
 }
 
@@ -142,7 +142,7 @@ a.resume:active {
 
 .hero_text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
 
 }
@@ -167,8 +167,9 @@ p.img_text span.name {
 p.img_text span.location {
   text-transform: uppercase;
   font-size: 1.6rem;
-  font-weight: 900;
-  color: #C26D96;
+  /*color: #528E7A;*/
+  font-weight: 800;
+  font-family: 'Crimson Text', 'EB Garamond', serif;
 }
 
 
@@ -383,7 +384,7 @@ h4 {
   align-items: center;
   padding: 10px;
   vertical-align: middle;
-  margin-top: 110px;
+  margin-top: 80px;
 
 }
 
@@ -410,7 +411,7 @@ h1.bio {
   line-height: 1.3;
   float: right;
   clear: left;
-  padding-top: 5px;
+  padding-top: 50px;
   padding-left: 15px;
 }
 
@@ -1465,7 +1466,7 @@ p.Quote {
       font-weight: 500;
       padding: 15px;
       font-size: .9rem;
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     a.busybus:visited {
@@ -1485,7 +1486,7 @@ p.Quote {
       font-weight: 500;
       padding: 15px;
       font-size: .9rem;
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     a.lechef:visited {
@@ -1575,16 +1576,16 @@ p.Quote {
 
     img.bio {
       padding-left: 100px;
-      padding-top: 60px;
+      padding-top: 50px;
       width: 100%;
-      padding-right: 10px;
+      /*padding-right: 10px;*/
     }
 
     h1.bio {
       font-size: 1.3rem;
-      padding-top: 60px;
+      padding-top: 100px;
       line-height: 1.8;
-      padding-right: 50px;
+      padding-right: 100px;
     }
 
     h2.About {
@@ -2232,7 +2233,7 @@ p.Quote {
     p.projects {
       font-size: 1rem;
       padding: 15px;
-      padding-right: 160px;
+      padding-left: 400px;
     }
 
     a.busybus {
@@ -2240,15 +2241,15 @@ p.Quote {
       font-weight: 500;
       padding: 15px;
       font-size: 1rem;
-      padding-left: 200px;
+      padding-right: 100px;
 
     }
 
     a.lechef {
-      font-weight: 500;
+      font-weight: 400;
       padding: 15px;
       font-size: 1rem;
-      padding-left: 200px;
+      padding-right: 100px;
     }
 }
 
@@ -2407,16 +2408,16 @@ p.Quote {
   img.bio {
     width: 60%;
     padding-left: 100px;
-    margin-left: 100px;
-    padding-top: 80px;
+    margin-left: 200px;
+    padding-top: 50px;
 
   }
 
   h1.bio {
     font-size: 1.8rem;
     line-height: 1.7;
-    padding-right: 300px;
-    padding-top: 60px;
+    padding-right: 400px;
+    padding-top: 120px;
 
 
     }
@@ -3098,7 +3099,7 @@ p.Quote {
   p.projects {
     font-size: 1rem;
     padding: 15px;
-    padding-right: 230px;
+    padding-left: 500px;
   }
 
   a.busybus{
@@ -3106,14 +3107,14 @@ p.Quote {
     font-weight: 500;
     padding: 15px;
     font-size: 1rem;
-    padding-left: 330px;
+    padding-right: 20px;
 
   }
 
   a.lechef{
-    font-weight: 500;
+    font-weight: 400;
     padding: 15px;
     font-size: 1rem;
-    padding-left: 330px;
+    padding-right: 20px;
   }
 }
