@@ -2452,7 +2452,7 @@ p.Quote {
     font-size: 2.4rem;
     line-height: 1.7;
     padding-right: 400px;
-    padding-top: 70px;
+    padding-top: 50px;
 
 
     }
@@ -2600,8 +2600,8 @@ p.Quote {
   }
 
   .weakness h5 {
-    padding-right: 500px;
-    padding-left: 110px;
+    padding-right: 300px;
+    padding-left: 100px;
   }
 
   ul.strength_lechef {
@@ -2610,6 +2610,7 @@ p.Quote {
     padding-right: 100px;
     line-height: 1.9;
     border-bottom: 0px;
+
   }
 
   ul.weakness_lechef {
@@ -3079,18 +3080,18 @@ p.Quote {
 
   .BB_first {
     width: 70%;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 250px;
+    padding-left: 245px;
     margin-left: 50px;
   }
 
   .BB_second {
     width: 70%;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-right: 250px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-left: 20px;
     margin-left: 90px;
   }
